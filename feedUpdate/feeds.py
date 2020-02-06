@@ -1299,7 +1299,6 @@ feeds = (
         title_full='Блог Феликса',
         href='https://felixit.blog/feed.xml',
         href_title='https://felixit.blog',
-        emojis='💎',
     ),
     feed(
         title='ReflectiveDesire',
@@ -3777,7 +3776,6 @@ feeds = (
     feed(
         title='iuriidmidenko',
         href='https://www.instagram.com/iuriidmidenko/',
-        emojis='💎',
     ),
     feed(
         title='tanyshkaloskan',
