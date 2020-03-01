@@ -161,6 +161,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='ShortCircuit',
+        href='https://www.youtube.com/channel/UCdBK94H6oZT2Q7l0-b0xmMg/videos',
+        emojis='💎'
+    ),
+    feed(
         title='TechLinked',
         title_full='Tech Linked by Linus',
         href='https://www.youtube.com/channel/UCeeFfhMcJa1kjtfZAGskOCA/videos',
@@ -548,6 +553,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='BermPeakExpress',
+        href='https://www.youtube.com/channel/UCOpP5PqrzODWpFU961acUbg/videos',
+        emojis='💎'
+    ),
+    feed(
         title='JYoung',
         title_full='Jonathan Young',
         href='https://www.youtube.com/channel/UC40gs0opj389ohjLnJIAJzA/videos',
@@ -868,10 +878,9 @@ feeds = (
         href='https://www.youtube.com/channel/UC7sDT8jZ76VLV1u__krUutA/videos',
     ),
     feed(
-        title='ThisIs',  # by Linus
+        title='ThisIs',
         title_full='This Is',
         href='https://www.youtube.com/channel/UC1IQIspOkCeV3WnYm32SBFQ/videos',
-        emojis='💎'
     ),
     feed(
         title='VolFMaple',
@@ -970,6 +979,22 @@ feeds = (
     feed(
         title='DungeonDudes',
         href='https://www.youtube.com/channel/UCQDKouT6G_6P1eBIfkTkC-w/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='QueueTimes',
+        href='https://www.youtube.com/channel/UC2maXXS1zBv8QVyb3UmkqUg/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='DingoDoodles',
+        href='https://www.youtube.com/channel/UCfPUcG3oCmXEYgdFuwlFh8w/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='Taking20',
+        href='https://www.youtube.com/channel/UCly0Thn_yZouwdJtg7Am62A/videos',
+        emojis='💎'
     ),
     feed(
         title='MrTarrasque',
@@ -1964,7 +1989,6 @@ feeds = (
         title='r_UpliftingNews',
         href='http://www.reddit.com/r/UpliftingNews/.rss',
         href_title='https://www.reddit.com/r/UpliftingNews',
-        emojis='💎'
     ),
     feed(
         title='r_programming',
@@ -1975,7 +1999,7 @@ feeds = (
         title='r_ShinyPorn',
         href='http://www.reddit.com/r/ShinyPorn/.rss',
         href_title='https://www.reddit.com/r/ShinyPorn',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='DOU',
@@ -2215,6 +2239,12 @@ feeds = (
         href='https://inhyuklee85.artstation.com/rss',
         href_title='https://inhyuklee85.artstation.com/projects',
         emojis='💎🏮'
+    ),
+    feed(
+        title='artofhau',
+        href='https://artofhau.artstation.com/rss',
+        href_title='https://artofhau.artstation.com/projects',
+        emojis='💎'
     ),
     feed(
         title='taekwonkim',
@@ -2479,6 +2509,30 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='amruu',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/amruu',
+        href_title='http://www.hentai-foundry.com/pictures/user/amruu',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='Grakata733',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/Grakata733',
+        href_title='http://www.hentai-foundry.com/pictures/user/Grakata733',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='Kupocun',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/Kupocun',
+        href_title='http://www.hentai-foundry.com/pictures/user/Kupocun',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='QRichy',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/QRichy',
+        href_title='http://www.hentai-foundry.com/pictures/user/QRichy',
+        emojis='💎🏮'
+    ),
+    feed(
         title='Gmeen',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Gmeen',
         href_title='http://www.hentai-foundry.com/pictures/user/Gmeen',
@@ -2656,6 +2710,12 @@ feeds = (
         title='Jummy',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Jummy',
         href_title='http://www.hentai-foundry.com/pictures/user/Jummy',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='disclaimer',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/disclaimer',
+        href_title='http://www.hentai-foundry.com/pictures/user/disclaimer',
         emojis='💎🏮'
     ),
     feed(
@@ -2962,7 +3022,7 @@ feeds = (
         title='PalomaP',
         href='https://www.hentai-foundry.com/feed/userPictures/username/PalomaP',
         href_title='http://www.hentai-foundry.com/pictures/user/PalomaP',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='Dimedrolly',
@@ -2992,7 +3052,7 @@ feeds = (
         title='hessraart',
         href='https://www.hentai-foundry.com/feed/userPictures/username/hessraart',
         href_title='http://www.hentai-foundry.com/pictures/user/hessraart',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='Pupuliini',
@@ -3126,6 +3186,11 @@ feeds = (
     feed(
         title='carmessiDA',
         href='https://www.deviantart.com/carmessi/gallery/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='zeronisDA',
+        href='https://www.deviantart.com/zeronis/gallery/',
         emojis='💎🏮',
     ),
     feed(
@@ -3739,6 +3804,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='lisafiitt',
+        href='https://www.instagram.com/lisafiitt/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='ladygaga',
         href='https://www.instagram.com/ladygaga/',
         emojis='🏮',
@@ -3761,7 +3831,7 @@ feeds = (
     feed(
         title='773_029',
         href='https://www.instagram.com/773_029/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='ve_ro_nika_12',
@@ -3964,6 +4034,11 @@ feeds = (
     feed(
         title='wrapashouse',
         href='https://www.instagram.com/wrapashouse/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='raikoart',
+        href='https://www.instagram.com/raikoart/',
         emojis='💎🏮',
     ),
     feed(
@@ -4175,9 +4250,13 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='s_g_g_p',
+        href='https://www.instagram.com/s_g_g_p/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='papavape_ua',
         href='https://www.instagram.com/papavape_ua/',
-        emojis='💎🏮',
     ),
     feed(
         title='dk_88_la',
@@ -4376,7 +4455,12 @@ feeds = (
     feed(
         title='raquelreedxo',
         href='https://www.instagram.com/raquelreedxo/',
-        emojis='🏮',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='raquelreedxo',
+        href='https://www.instagram.com/raquelreedxo/',
+        emojis='💎🏮',
     ),
     feed(
         title='saiwsaiwsaiwInsta',
@@ -4391,22 +4475,22 @@ feeds = (
     feed(
         title='starfuckedmodel',
         href='https://www.instagram.com/starfuckedmodel/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='fenixfatalistInsta',
         href='https://www.instagram.com/fenixfatalist/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='kalinkafoxInsta',
         href='https://www.instagram.com/kalinkafox/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='kalinkafoxInsta2',
         href='https://www.instagram.com/kalinka.fox/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='allisonstokke',
@@ -5305,7 +5389,7 @@ feeds = (
     feed(
         title='iamshalyapin',
         href='https://www.instagram.com/iamshalyapin/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='gina_9011',
@@ -5695,7 +5779,6 @@ feeds = (
     feed(
         title='elementore',
         href='https://www.instagram.com/elementore/',
-        emojis='💎',
     ),
     feed(
         title='razin_anna',
