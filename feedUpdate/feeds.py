@@ -30,6 +30,12 @@ feeds = (
         href='http://xn--80ac9aeh6f.xn--p1ai/super-gen-boga/',
     ),
     feed(
+        title='SoloPlay',
+        title_full='Император Одиночной Игры',
+        href='http://xn--80ac9aeh6f.xn--p1ai/imperator-odinochnoy-igry-emperor-of-solo-play/',
+        emojis='💎'
+    ),
+    feed(
         title='RenegadeImmortal',
         title_full='Renegade Immortal',
         href='https://www.wuxiaworld.com/feed/chapters/renegade-immortal',
