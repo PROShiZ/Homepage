@@ -50,6 +50,13 @@ feeds = (
         emojis='💎📧'
     ),
     feed(
+        title='DominionsEnd',
+        href='https://www.princerevolution.org/feed/',
+        href_title='https://www.princerevolution.org/dominion-main/',
+        emojis='💎',
+        filter='princerevolution.org/dominion'
+    ),
+    feed(
         title='Gamer',
         title_full='The Gamer',
         href='feed://www.webtoons.com/en/fantasy/the-gamer/rss?title_no=88',
@@ -539,6 +546,11 @@ feeds = (
     feed(
         title='StandUpClub',
         href='https://www.youtube.com/channel/UC3cJiUuZlpF-pkzqvSskTpg/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='EnterShowman',
+        href='https://www.youtube.com/channel/UCS_3eCq4P3du6e8tlXrNClA/videos',
         emojis='💎'
     ),
     feed(
