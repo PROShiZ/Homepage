@@ -45,6 +45,7 @@ class feedTestsView(ListView):
         }
 
 
+# shows List<Feed> with modes: index (SFW) / other (NSFW) / all (SFW+NSFW)
 class feedIndexView(ListView):
     model = feedUpdate
     template_name = "feedUpdate/feeds.html"
@@ -56,8 +57,9 @@ class feedIndexView(ListView):
 
         # calculations
         if self.kwargs.get('mode', False) == "index":
-            feed_list = feed.objects.filter(emojis__icontains='💎')
-            feed_list = feed_list.exclude(emojis__icontains='🏮')
+            feed_list = feed.objects.exclude(emojis__contains='🏮')
+        elif self.kwargs.get('mode', False) == "other":
+            feed_list = feed.objects.filter(emojis__contains='🏮')
         elif self.kwargs.get('mode', False) == "all":
             feed_list = feed.objects.all()
 

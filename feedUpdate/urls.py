@@ -8,7 +8,7 @@ urlpatterns = [
     url(r'^other:(?P<mode>(index|force|more))', views.otherView.as_view(), name="other"),  # list other
 
     # pages
-    url(r'^feeds:(?P<mode>(index|all))$', views.feedIndexView.as_view(), name="feeds"),  # list feeds
+    url(r'^feeds:(?P<mode>(index|other|all))$', views.feedIndexView.as_view(), name="feeds"),  # list feeds
     url(r'^rss$', views.feedUpdateFeed(), name="rss"),  # RSS feed
     url(r'^tests$', views.feedTestsView.as_view(), name="tests"),  # testing page
     
