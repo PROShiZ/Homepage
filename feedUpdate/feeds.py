@@ -50,6 +50,12 @@ feeds = (
         emojis='💎📧'
     ),
     feed(
+        title='TruthPursuit',
+        title_full='Pursuit of the Truth (остановился на 106',
+        href='https://www.wuxiaworld.com/feed/chapters/Pursuit-of-the-Truth',
+        href_title='https://www.wuxiaworld.com/novel/Pursuit-of-the-Truth',
+    ),
+    feed(
         title='DominionsEnd',
         href='https://www.princerevolution.org/feed/',
         href_title='https://www.princerevolution.org/dominion-main/',
@@ -118,6 +124,16 @@ feeds = (
     feed(
         title='TaranVanHemert',
         href='https://www.youtube.com/channel/UCd0ZD4iCXRXf18p3cA7EQfg/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='MrRhexx',
+        href='https://www.youtube.com/channel/UCiMIeIhx3a-F1In-PQuRO7g/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='DMitAll',
+        href='https://www.youtube.com/channel/UCI2iE1Gt0xXZmgQIyGE_1fA/videos',
         emojis='💎'
     ),
     feed(
@@ -1093,6 +1109,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='CrimsonArmadillo',
+        href='https://www.youtube.com/channel/UCoyO_235wIemts2p0acNftA/videos',
+        emojis='💎'
+    ),
+    feed(
         title='VadimVega',
         href='https://www.youtube.com/channel/UCYvRNVHyIrmUw4n7qVS9XyA/videos',
     ),
@@ -1301,7 +1322,6 @@ feeds = (
         title='RaspberryPiWeb',
         href='https://www.raspberrypi.org/feed/',
         href_title='https://www.raspberrypi.org/blog/',
-        emojis='💎'
     ),
     feed(
         title='УспГорСобытия',
@@ -1507,6 +1527,11 @@ feeds = (
         title='БурныйВек',
         title_full='Бурный век',
         href='http://readmanga.me/volcanic_age',
+        emojis='💎'
+    ),
+    feed(
+        title='НепобедимыйГений',
+        href='http://readmanga.me/ia_nepobedimyi_genii',
         emojis='💎'
     ),
     feed(  # окончено автором, продолжения не планируется (кроме книги?)
@@ -1766,7 +1791,7 @@ feeds = (
         title='erotibotica',
         href='https://erotibotica.com/feed/',
         href_title='https://erotibotica.com',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='Шелдон',
@@ -2259,6 +2284,18 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='louie_oh',
+        href='https://louie-oh.artstation.com/rss',
+        href_title='https://louie-oh.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='chistowski',
+        href='https://chistowski.artstation.com/rss',
+        href_title='https://chistowski.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
         title='jncarvajal',
         href='https://jncarvajal.artstation.com/rss',
         href_title='https://jncarvajal.artstation.com/projects',
@@ -2364,7 +2401,7 @@ feeds = (
         title='yunting',
         href='https://yunting.artstation.com/rss',
         href_title='https://yunting.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='junsartwork',
@@ -3842,7 +3879,7 @@ feeds = (
     feed(
         title='lisafiitt',
         href='https://www.instagram.com/lisafiitt/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='ladygaga',
@@ -4228,7 +4265,7 @@ feeds = (
     feed(
         title='bondage_warriors',
         href='https://www.instagram.com/bondage_warriors/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='lvenok0311',
@@ -4288,7 +4325,7 @@ feeds = (
     feed(
         title='s_g_g_p',
         href='https://www.instagram.com/s_g_g_p/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='papavape_ua',
@@ -5386,7 +5423,7 @@ feeds = (
     feed(
         title='geekelysium',
         href='https://www.instagram.com/geekelysium/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='daphnelux',
