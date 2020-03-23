@@ -5554,11 +5554,6 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='tag_corset',
-        href='https://www.instagram.com/explore/tags/corset/',
-        emojis='💎🏮',
-    ),
-    feed(
         title='xenakai',
         href='https://www.instagram.com/xenakai/',
         emojis='🏮',
