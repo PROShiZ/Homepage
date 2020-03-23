@@ -3782,7 +3782,7 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='rossdraws',
+        title='rossdrawsDA',
         href='https://www.deviantart.com/rossdraws/gallery/',
         emojis='💎🏮',
     ),
@@ -3827,7 +3827,7 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='raikoart',
+        title='raikoartDA',
         href='https://www.deviantart.com/raikoart/gallery/',
         emojis='💎🏮',
     ),
@@ -4523,11 +4523,6 @@ feeds = (
     feed(
         title='aliciamariebody',
         href='https://www.instagram.com/aliciamariebody/',
-        emojis='💎🏮',
-    ),
-    feed(
-        title='raquelreedxo',
-        href='https://www.instagram.com/raquelreedxo/',
         emojis='💎🏮',
     ),
     feed(
@@ -5293,7 +5288,7 @@ feeds = (
     feed(
         title='nikiskinoir',
         href='https://www.instagram.com/nikiskinoir/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='anna_batman666',
