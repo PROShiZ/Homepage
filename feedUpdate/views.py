@@ -117,7 +117,6 @@ class feedUpdateIndexView(ListView):
         # page_title
         title_feed = self.kwargs.get('feed')
         title_mode = self.kwargs.get('mode')
-        page_title = title_feed +":"+ title_mode
 
         # feed_list
         feed_list = []
@@ -131,7 +130,7 @@ class feedUpdateIndexView(ListView):
             feed_list = self.kwargs['feed'].split("+")
             feed_list = feed.objects.filter(title__in=feed_list)
             
-            page_title = "+".join([ x.title for x in feed_list ])
+            title_feed = "+".join([ x.title for x in feed_list ])
             # page_title += ":"+ title_mode
             
             feed_list_len = len(feed_list)
@@ -159,10 +158,10 @@ class feedUpdateIndexView(ListView):
         # results
         return {
             'page': {
-                'title': page_title,
+                'title': title_feed +":"+ title_mode,
                 'display_titles': page_display_titles,
             },
-            'feed_name': page_title,
+            'feed_name': title_feed,
             'feedUpdate_list': feedUpdate_list,
         }
 
