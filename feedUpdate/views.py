@@ -9,6 +9,7 @@ from django.db.models import Count
 import re
 
 
+# TODO: exchange with normal testing
 class feedTestsView(ListView):
     model = feedUpdate
     template_name = "feedUpdate/tests.html"
@@ -72,96 +73,37 @@ class feedIndexView(ListView):
         }
 
 
-class otherView(ListView):
+# shows List<FeedUpdate>: index:index
+class feedUpdateDefaultIndexView(ListView):
     model = feedUpdate
     template_name = "feedUpdate/index.html"
     context_object_name = "fromView"
 
     def get_queryset(self):
         # constants
-        header = "Other"
-        multibook = True
+        page_title = "Обновления"
+        page_display_titles = True
         result_size_limit = 140
-        if self.kwargs.get('mode', False) == "more":
-            result_size_limit = result_size_limit * 100
-            print(result_size_limit)
-        print(self.kwargs.get('mode'))
-        feed_emoji_filter = '🏮'
 
         # calculations
-
-        # mode configuration
-        feedUpdate_list = []
-        feed_list = feed.feeds_by_emoji(feed_emoji_filter)
-
-        if self.kwargs.get('mode', False) == "index" or self.kwargs.get('mode', False) == "more" or self.kwargs.get('mode', False) == "":
-            feed_title_list = []
-            for each in feed_list:
-                if each.emojis.find('💎') != -1:
-                    feed_title_list.append(each.title)
-
-            feedUpdate_list = list(feedUpdate.objects.filter(title__in=feed_title_list)[:result_size_limit])
-        elif self.kwargs.get('mode', False) == "force":
-            header += ": Forced"
-            for each in feed_list:
-                for feedUpdate_item in feed.parse(each):
-                    feedUpdate_list.append(feedUpdate_item)
-            feedUpdate_list.sort(key=lambda feedUpdate_list_item: str(feedUpdate_list_item.datetime), reverse=True)
+        feeds = feed.objects.filter(emojis__icontains='💎').exclude(emojis__icontains='🏮')
+        feed_list = [ x.title for x in feeds ]
+        
+        feedUpdate_list = feedUpdate.objects.filter(title__in=feed_list)[:result_size_limit]
 
         # results
         return {
             'page': {
-                'title': header,
+                'title': page_title,
+                'display_titles': page_display_titles,
             },
             'feedUpdate_list': feedUpdate_list,
-            'multibook': multibook,
         }
 
 
-class myActivityView(ListView):
-    model = feedUpdate
-    template_name = "feedUpdate/index.html"
-    context_object_name = "fromView"
-
-    def get_queryset(self):
-        # constants
-        header = "Моя активность"
-        multibook = True
-        result_size_limit = 42
-        feed_emoji_filter = '👤'
-
-        # calculations
-
-        # mode configuration
-        feedUpdate_list = []
-        feed_list = feed.feeds_by_emoji(feed_emoji_filter)
-
-        if self.kwargs.get('mode', False) == "index" or self.kwargs.get('mode', False) == "more" or self.kwargs.get('mode', False) == "":
-            if self.kwargs.get('mode', False) == "more":
-                result_size_limit = result_size_limit * 100
-            feed_title_list = []
-            for each in feed_list:
-                feed_title_list.append(each.title)
-
-            feedUpdate_list = list(feedUpdate.objects.filter(title__in=feed_title_list)[:result_size_limit])
-        elif self.kwargs['mode'] == "force":
-            header += ": Forced"
-            for each in feed_list:
-                for feedUpdate_item in feed.parse(each):
-                    feedUpdate_list.append(feedUpdate_item)
-            feedUpdate_list.sort(key=lambda feedUpdate_list_item: str(feedUpdate_list_item.datetime), reverse=True)
-
-
-        # results
-        return {
-            'page': {
-                'title': header,
-            },
-            'feedUpdate_list': feedUpdate_list,
-            'multibook': multibook,
-        }
-
-
+# shows List<FeedUpdate>
+# filters: index (SFW) / other (NSFW) / all (SFW+NSFW)
+# modes: index (parsed) / more (index, but more items) / force (parse)
 class feedUpdateIndexView(ListView):
     model = feedUpdate
     template_name = "feedUpdate/index.html"
@@ -169,83 +111,63 @@ class feedUpdateIndexView(ListView):
 
     def get_queryset(self):
         # constants
-        items_limit = 140
+        page_display_titles = True
+        result_size_limit = 140
 
-        # calculations
-        # multibook checker
-        if not self.kwargs.get('feeds', False):
-            multibook = True
-        elif len(self.kwargs['feeds'].split("+")) > 1:
-            multibook = True
-        else:
-            multibook = False
-        # print("multibook: " + str(multibook))
+        # page_title
+        title_feed = self.kwargs.get('feed')
+        title_mode = self.kwargs.get('mode')
+        page_title = title_feed +":"+ title_mode
 
-        # page_title generation
-        page_title = "Обновления"
-        if not multibook:
-            feed_one = feed.find(self.kwargs['feeds'])
-            if feed_one.title_full:
-                page_title = feed_one.title_full
-            else:
-                page_title = feed_one.title
-        elif self.kwargs.get('feeds', False):
-            page_title = self.kwargs['feeds']
-        # print("page_title: " + str(page_title))
-
-        # feedName generation for buttons
-        try:
-            feedName = self.kwargs['feeds']
-        except KeyError:
-            feedName = "Обновления"
-        # print("feedName: " + str(feedName))
-
-        # feed_list generation
+        # feed_list
         feed_list = []
-        if not multibook:
-            feed_list.append(feed.find(feedName))
-        elif not self.kwargs.get('feeds', False):
-            feed_list = feed.feeds_by_emoji()
+        if self.kwargs.get('feed', False) == 'index':
+            feed_list = feed.objects.filter(emojis__icontains='💎').exclude(emojis__icontains='🏮')
+        elif self.kwargs.get('feed', False) == 'other':
+            feed_list = feed.objects.filter(emojis__icontains='💎').filter(emojis__icontains='🏮')
+        elif self.kwargs.get('feed', False) == 'all':
+            feed_list = feed.objects.filter(emojis__icontains='💎')
         else:
-            feed_list = feed.objects.filter(title__in=page_title.split("+"))
-        # print("feed_list: " + str(list(feed_list)))
+            feed_list = self.kwargs['feed'].split("+")
+            feed_list = feed.objects.filter(title__in=feed_list)
+            
+            page_title = "+".join([ x.title for x in feed_list ])
+            # page_title += ":"+ title_mode
+            
+            feed_list_len = len(feed_list)
+            if feed_list_len == 0:
+                raise Exception("Manual error. No correct filter indicated")
+            elif feed_list_len == 1:
+                page_display_titles = False
 
-
-        # get feedUpdate_list
+        feed_list = [ x.title for x in feed_list ]
+        
+        # feedUpdate_list
         feedUpdate_list = []
-        if self.kwargs.get('mode', False) == "index" or self.kwargs.get('mode', False) == "more" or self.kwargs.get('mode', False) == "":
-            if self.kwargs.get('mode', False) == "more":
-                items_limit = items_limit * 100
-            if page_title == "Обновления":
-                feed_titles = []
-                for each in feed.feeds_by_emoji():
-                    feed_titles.append(each.title)
-
-                feed_titles_not = []
-                for each in feed.feeds_by_emoji('🏮'):
-                    feed_titles_not.append(each.title)
-
-                feedUpdate_list = feedUpdate.objects.filter(title__in=feed_titles)
-                feedUpdate_list = feedUpdate_list.exclude(title__in=feed_titles_not)
-                feedUpdate_list = feedUpdate_list[:items_limit]
-                feedUpdate_list = list(feedUpdate_list)
-            else:
-                feedUpdate_list = list(feedUpdate.objects.filter(title__in=self.kwargs['feeds'].split("+"))[:items_limit])
-        elif self.kwargs.get('mode', False) == "force":
-            page_title += ": Forced"
+        if self.kwargs.get('mode', False) == 'index':
+            feedUpdate_list = feedUpdate.objects.filter(title__in=feed_list)[:result_size_limit]
+        elif self.kwargs.get('mode', False) == 'more':
+            feedUpdate_list = feedUpdate.objects.filter(title__in=feed_list)[:result_size_limit*10]
+        elif self.kwargs.get('mode', False) == 'force':
             for each in feed_list:
-                for feedUpdate_item in feed.parse(each):
-                    feedUpdate_list.append(feedUpdate_item)
+                each = feed.objects.get(title=each)
+                each = each.parse()
+                feedUpdate_list.extend( each )
+
             feedUpdate_list.sort(key=lambda feedUpdate_list_item: str(feedUpdate_list_item.datetime), reverse=True)
 
+        # results
         return {
-            'page_title': page_title,
-            'feedName': feedName,
+            'page': {
+                'title': page_title,
+                'display_titles': page_display_titles,
+            },
+            'feed_name': page_title,
             'feedUpdate_list': feedUpdate_list,
-            'multibook': multibook,
         }
 
 
+# RSS feed
 class feedUpdateFeed(Feed):
     title = "Обновления RSS"
     link = "/feedUpdate/rss"
