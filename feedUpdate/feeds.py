@@ -2651,7 +2651,7 @@ feeds = (
         title='awasof',
         href='https://www.hentai-foundry.com/feed/userPictures/username/awasof',
         href_title='http://www.hentai-foundry.com/pictures/user/awasof',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='ItsMeBluntKatana',
@@ -5431,6 +5431,16 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='eseniya__a',
+        href='https://www.instagram.com/eseniya__a/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='anete_blaua',
+        href='https://www.instagram.com/anete.blaua/',
+        emojis='💎🏮',
+    ), 
+    feed(
         title='mavrin',
         href='https://www.instagram.com/mavrin/',
         emojis='💎🏮',
@@ -5438,7 +5448,7 @@ feeds = (
     feed(
         title='a_mavrin',
         href='https://www.instagram.com/a_mavrin/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='MAVRINstudios',
