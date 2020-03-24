@@ -18,8 +18,8 @@
                 <a href="{% url "feedUpdate:index" %}">📰️️️</a>
                 <a href="{% url "feedUpdate:rss" %}">🗞️</a>
             {% else %}
-                <a href="{% url "feedUpdate:filter" feed=fromView.page.title mode="index" %}">📰️️️</a>
-                <a href="{% url "feedUpdate:filter" feed=fromView.page.title mode="force" %}">☠️️</a>
+                <a href="{% url "feedUpdate:filter" feed=fromView.feed_name mode="index" %}">📰️️️</a>
+                <a href="{% url "feedUpdate:filter" feed=fromView.feed_name mode="force" %}">☠️️</a>
             {% endif %}
             <a href="{% url "feedUpdate:tests" %}">⚙️</a>
             <a href="{% url "feedUpdate:feeds" mode="index" %}">📂</a>
