@@ -928,6 +928,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='DustinKlein',
+        href='https://www.youtube.com/channel/UCV9WtB_q5sJfe3Rev5PWy-Q/videos',
+        emojis='💎'
+    ),
+    feed(
         title='JoCat',
         href='https://www.youtube.com/channel/UCRDVE5L1LTWhmPAKKbUBGtg/videos',
         emojis='💎'
@@ -2597,7 +2602,7 @@ feeds = (
         title='Kupocun',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Kupocun',
         href_title='http://www.hentai-foundry.com/pictures/user/Kupocun',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='QRichy',
@@ -3299,7 +3304,7 @@ feeds = (
     feed(
         title='blasian89',
         href='https://www.deviantart.com/blasian89/gallery/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='nebezial',
@@ -3935,8 +3940,19 @@ feeds = (
         emojis='🏮',
     ),
     feed(
+        title='АлёнаШамилова',
+        title_full='Алёна Шамилова (boldlass_)',
+        href='https://www.instagram.com/boldlass_/',
+        emojis='💎',
+    ),
+    feed(
         title='maruvofficial',
         href='https://www.instagram.com/maruvofficial/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='volobueva_kat',
+        href='https://www.instagram.com/volobueva_kat/',
         emojis='💎🏮',
     ),
     feed(
@@ -4413,7 +4429,7 @@ feeds = (
     feed(
         title='eccentricerick',
         href='https://www.instagram.com/eccentricerick/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='krissycela',
@@ -4433,7 +4449,7 @@ feeds = (
     feed(
         title='natacha_oceane',
         href='https://www.instagram.com/natacha.oceane/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='brittnebabe',
