@@ -18,7 +18,7 @@
 
     {% for feed in fromView.feed_list %}
         <li class="index-{% if '💎' in feed.emojis %}true{% else %}false{% endif %}"><a
-            class="track-click" target="_blank" href="{% url "feedUpdate:feed" feeds=feed.title mode='index' %}"><span class="title"
+            class="track-click" target="_blank" href="{% url "feedUpdate:filter" feed=feed.title mode='index' %}"><span class="title"
                 >{{ feed.title }}</span>{% if feed.title_full %}: {{ feed.title_full }}{% endif %}
             </a>
             <span><nobr>
