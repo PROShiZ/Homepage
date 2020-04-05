@@ -2291,7 +2291,13 @@ feeds = (
         href='https://inhyuklee85.artstation.com/rss',
         href_title='https://inhyuklee85.artstation.com/projects',
         emojis='💎🏮'
-    ),merkymerx 
+    ), 
+    feed(
+        title='merkymerx',
+        href='https://merkymerx.artstation.com/rss',
+        href_title='https://merkymerx.artstation.com/projects',
+        emojis='💎'
+    ),
     feed(
         title='rinmaho',
         href='https://rinmaho.artstation.com/rss',
