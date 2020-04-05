@@ -300,7 +300,6 @@ feeds = (
     feed(
         title='AlexandriaOcasioCortez',
         href='https://www.youtube.com/channel/UCElqfal0wzzpLsHlRuqZjaA/videos',
-        emojis='💎'
     ),
     feed(
         title='Банкир',
@@ -609,7 +608,6 @@ feeds = (
     feed(
         title='FeliciaDay',
         href='https://www.youtube.com/channel/UCIg7U4yoXlm2_nnkl9wsIcw/videos',
-        emojis='💎'
     ),
     feed(
         title='АнтонПтушкин',
@@ -908,6 +906,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='Усачев',
+        href='https://www.youtube.com/channel/UCDaIW2zPRWhzQ9Hj7a0QP1w/videos',
+        emojis='💎'
+    ),
+    feed(
         title='DUST',
         href='https://www.youtube.com/channel/UC7sDT8jZ76VLV1u__krUutA/videos',
     ),
@@ -915,6 +918,7 @@ feeds = (
         title='ThisIs',
         title_full='This Is',
         href='https://www.youtube.com/channel/UC1IQIspOkCeV3WnYm32SBFQ/videos',
+        emojis='💎'
     ),
     feed(
         title='VolFMaple',
@@ -2287,6 +2291,12 @@ feeds = (
         href='https://inhyuklee85.artstation.com/rss',
         href_title='https://inhyuklee85.artstation.com/projects',
         emojis='💎🏮'
+    ),merkymerx 
+    feed(
+        title='rinmaho',
+        href='https://rinmaho.artstation.com/rss',
+        href_title='https://rinmaho.artstation.com/projects',
+        emojis='💎'
     ),
     feed(
         title='louie_oh',
@@ -2572,7 +2582,6 @@ feeds = (
         title='Superfamous',
         href='https://superfamous.com/rss',
         href_title='https://superfamous.com/Clippings',
-        emojis='💎'
     ),
     feed(
         title='DnDBeyond',
@@ -2608,7 +2617,7 @@ feeds = (
         title='QRichy',
         href='https://www.hentai-foundry.com/feed/userPictures/username/QRichy',
         href_title='http://www.hentai-foundry.com/pictures/user/QRichy',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='Gmeen',
@@ -3070,7 +3079,7 @@ feeds = (
         title='X3',
         href='https://www.hentai-foundry.com/feed/userPictures/username/X3',
         href_title='http://www.hentai-foundry.com/pictures/user/X3',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='Ryletik',
@@ -3088,7 +3097,7 @@ feeds = (
         title='Rampage0118',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Rampage0118',
         href_title='http://www.hentai-foundry.com/pictures/user/Rampage0118',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='cutepet',
@@ -3973,7 +3982,7 @@ feeds = (
     feed(
         title='svetlana_gq',
         href='https://www.instagram.com/svetlana_gq/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='curly___girls',
@@ -4168,7 +4177,7 @@ feeds = (
     feed(
         title='rubyrose',
         href='https://www.instagram.com/rubyrose/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='pet_foolery',
@@ -4774,7 +4783,7 @@ feeds = (
     feed(
         title='non_nonsummerjack',
         href='https://www.instagram.com/non_nonsummerjack/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='_missbo',
@@ -5072,9 +5081,14 @@ feeds = (
         emojis='🏮',
     ),
     feed(
+        title='lunaritiecosplay',
+        href='https://www.instagram.com/lunaritiecosplay/',
+        emojis='🏮',
+    ),
+    feed(
         title='l__natasha',
         href='https://www.instagram.com/l._natasha/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='natashawsh',
@@ -5344,7 +5358,7 @@ feeds = (
     feed(
         title='celene_nox',
         href='https://www.instagram.com/celene.nox/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='haleybroox',
@@ -5503,7 +5517,7 @@ feeds = (
     feed(
         title='pasteljellies',
         href='https://www.instagram.com/pasteljellies/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='iamshalyapin',
