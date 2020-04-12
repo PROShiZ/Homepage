@@ -54,7 +54,7 @@ class Command(BaseCommand):
 
         for each in feedUpdate_list:
             # checking if href is cached
-            cached = feedUpdate.objects.filter(href=each.href).exists()
+            cached = feedUpdate.objects.filter(title=current_feed.title, href=each.href).exists()
             
             cycle_items_total += 1
             if not cached:
