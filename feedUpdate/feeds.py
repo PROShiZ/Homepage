@@ -2832,7 +2832,7 @@ feeds = (
         title='HighBear',
         href='https://www.hentai-foundry.com/feed/userPictures/username/High-Bear',
         href_title='http://www.hentai-foundry.com/pictures/user/High-Bear',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='ebluberry',
