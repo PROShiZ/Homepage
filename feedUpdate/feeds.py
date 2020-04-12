@@ -1037,7 +1037,6 @@ feeds = (
     feed(
         title='Taking20',
         href='https://www.youtube.com/channel/UCly0Thn_yZouwdJtg7Am62A/videos',
-        emojis='💎'
     ),
     feed(
         title='MrTarrasque',
@@ -2102,6 +2101,12 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='a_shalimoff',
+        href='https://twitrss.me/twitter_user_to_rss/?user=a_shalimoff',
+        href_title='https://twitter.com/a_shalimoff',
+        emojis='💎'
+    ),
+    feed(
         title='yohan1754',
         href='https://twitrss.me/twitter_user_to_rss/?user=yohan1754',
         href_title='https://twitter.com/yohan1754',
@@ -2995,7 +3000,7 @@ feeds = (
         title='Koyakyuun',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Koyakyuun',
         href_title='http://www.hentai-foundry.com/pictures/user/Koyakyuun',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='darkdragoon',
@@ -3809,7 +3814,7 @@ feeds = (
     feed(
         title='sakimichan',
         href='https://www.deviantart.com/sakimichan/gallery/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='BADCOMPZERO',
@@ -3890,6 +3895,11 @@ feeds = (
         title='shencomix',
         href='https://www.instagram.com/shencomix/',
         emojis='💎',
+    ),
+    feed(
+        title='applewhite_uk',
+        href='https://www.instagram.com/applewhite_uk/',
+        emojis='💎🏮',
     ),
     feed(
         title='irine_meier',
@@ -4604,6 +4614,21 @@ feeds = (
     feed(
         title='kalinkafoxInsta3',
         href='https://www.instagram.com/finkchan/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='kalinkafoxInsta4',
+        href='https://www.instagram.com/kalinkafoxy/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='umbird',
+        href='https://www.instagram.com/umbird/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='svetlana_fedorkevich',
+        href='https://www.instagram.com/svetlana_fedorkevich/',
         emojis='💎🏮',
     ),
     feed(
@@ -5597,7 +5622,7 @@ feeds = (
     feed(
         title='k_kiuchi_q',
         href='https://www.instagram.com/k.kiuchi_q/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='xenakai',
