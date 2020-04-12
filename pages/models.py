@@ -19,7 +19,7 @@ class page(models.Model):
             result_file_name = os.fsdecode(file)
 
             result_title = result_file_name.find('.html')
-            if result_title is not -1 and result_file_name is not '.DS_Store':
+            if result_title != -1 and result_file_name != '.DS_Store':
                 result_title = result_file_name[:result_title]
                 result_title = ' '.join(result_title.split('_'))
                 result_title = ' '.join(result_title.split('-'))
