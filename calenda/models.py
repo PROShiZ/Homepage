@@ -218,4 +218,43 @@ class calendar(models.Model):
                         calendar=self.title
                     ))
 
+        if self.href.find('https://concert.ua/ru/catalog/kharkiv/all-categories') != -1:
+            soup = requests.get(self.href, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+            })
+            # print(soup.text)
+            soupStrainer = SoupStrainer('section', attrs={'id': 'event-list'})
+            soup = BeautifulSoup(soup.text, "html.parser", parse_only=soupStrainer)
+
+            for a in soup.find_all('a'):
+                print(a, '\n\n---- NEW ----\n\n')
+                #print("\n\n----new----\n\n")
+
+                #result_title = li.find('img')['alt']
+                #result_city = li.find('span', attrs={'class': 'city'}).getText()
+                #result_place = li.find('span', attrs={'class': 'place'}).getText()
+                #result_title = result_title +', '+ result_city +', '+ result_place
+                # print(result_title)
+
+                #result_href = li.find('a')['href']
+                # print(result_href)
+
+                #result_start = li.find('meta', attrs={'itemprop': 'startDate'})['content']
+                #result_start = datetimeparser.parse(result_start)
+                # print(result_start)
+
+                #result_end = result_start + timedelta(0, 2*60*60)
+
+                #result.append(event(
+                #    title=result_title[:42],
+                #    description=result_title,
+                #    href=result_href,
+                #    start=result_start,
+                ##    end=result_end,
+                #    calendar=self.title
+                #))
+        #
+        # https://www.057.ua/afisha/cat/2,3,4,5,6,7,8,9,26
+        # https://events.tickets.ua/harkov
+
         return result
