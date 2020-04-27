@@ -594,7 +594,6 @@ feeds = (
     feed(
         title='BermPeakExpress',
         href='https://www.youtube.com/channel/UCOpP5PqrzODWpFU961acUbg/videos',
-        emojis='💎'
     ),
     feed(
         title='JYoung',
@@ -1615,9 +1614,8 @@ feeds = (
     ),
     feed(
         title='ЯМоб',
-        title_full='Я моб',
+        title_full='Я моб (завершено)',
         href='http://readmanga.me/i_am_mob',
-        emojis='💎'
     ),
     feed(
         title='ГорожанинКультиватор',
@@ -2119,7 +2117,7 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
-        title='wrapashouse',
+        title='wrapashouseTwi',
         href='https://twitrss.me/twitter_user_to_rss/?user=wrapashouse',
         href_title='https://twitter.com/wrapashouse',
         emojis='💎🏮'
@@ -2526,12 +2524,6 @@ feeds = (
         emojis='💎'
     ),
     feed(
-        title='chistowski',
-        href='https://chistowski.artstation.com/rss',
-        href_title='https://chistowski.artstation.com/projects',
-        emojis='💎'
-    ),
-    feed(
         title='jncarvajal',
         href='https://jncarvajal.artstation.com/rss',
         href_title='https://jncarvajal.artstation.com/projects',
@@ -2613,12 +2605,6 @@ feeds = (
         title='edwardckk',
         href='https://edwardckk.artstation.com/rss',
         href_title='https://edwardckk.artstation.com/projects',
-        emojis='💎🏮'
-    ),
-    feed(
-        title='eleth',
-        href='https://eleth.artstation.com/rss',
-        href_title='https://eleth.artstation.com/projects',
         emojis='💎🏮'
     ),
     feed(
@@ -2814,6 +2800,18 @@ feeds = (
         title='carmessi',
         href='https://www.hentai-foundry.com/feed/userPictures/username/carmessi',
         href_title='http://www.hentai-foundry.com/pictures/user/carmessi',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='Fellatrix',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/Fellatrix',
+        href_title='http://www.hentai-foundry.com/pictures/user/Fellatrix',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='YelfTea',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/YelfTea',
+        href_title='http://www.hentai-foundry.com/pictures/user/YelfTea',
         emojis='💎🏮'
     ),
     feed(
@@ -4150,11 +4148,6 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='miakhalifa',
-        href='https://www.instagram.com/miakhalifa/',
-        emojis='💎🏮',
-    ),
-    feed(
         title='umi1021670093',
         href='https://www.instagram.com/umi1021670093/',
         emojis='💎🏮',
@@ -4429,6 +4422,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='ida_zimbabva',
+        href='https://www.instagram.com/ida_zimbabva/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='raikoart',
         href='https://www.instagram.com/raikoart/',
         emojis='💎🏮',
@@ -4529,6 +4527,21 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='borusushi',
+        href='https://www.instagram.com/borusushi/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='mykinkydope',
+        href='https://www.instagram.com/mykinkydope/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='mdollbot',
+        href='https://www.instagram.com/mdollbot/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='1bike1world',
         href='https://www.instagram.com/1bike1world/',
     ),
@@ -4574,11 +4587,6 @@ feeds = (
     feed(
         title='threnodyinvelvet',
         href='https://www.instagram.com/threnodyinvelvet/',
-        emojis='🏮',
-    ),
-    feed(
-        title='roga_na_noge',
-        href='https://www.instagram.com/roga_na_noge/',
         emojis='🏮',
     ),
     feed(
@@ -5233,11 +5241,6 @@ feeds = (
         title='bast_model_life',
         href='https://www.instagram.com/bast_model_life/',
         emojis='💎🏮',
-    ),
-    feed(
-        title='alekay_salakruthai',
-        href='https://www.instagram.com/alekay_salakruthai/',
-        emojis='🏮',
     ),
     feed(
         title='yoyossavadee',
