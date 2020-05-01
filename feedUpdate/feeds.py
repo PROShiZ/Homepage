@@ -240,7 +240,7 @@ feeds = (
     feed(
         title='PoleDanceByAneteBlaua',
         href='https://www.youtube.com/channel/UCXQX3SfT_PLbj6qHIkx1uyw/videos',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='ВечернийУргант',
@@ -2126,7 +2126,7 @@ feeds = (
         title='krashzzone',
         href='https://twitrss.me/twitter_user_to_rss/?user=krashzzone',
         href_title='https://twitter.com/krashzzone',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='Soldatmyran',
@@ -2138,7 +2138,7 @@ feeds = (
         title='enjinightTwi',
         href='https://twitrss.me/twitter_user_to_rss/?user=enjinight',
         href_title='https://twitter.com/enjinight',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='nigellizhe',
@@ -2806,7 +2806,7 @@ feeds = (
         title='Fellatrix',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Fellatrix',
         href_title='http://www.hentai-foundry.com/pictures/user/Fellatrix',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='YelfTea',
@@ -3556,7 +3556,7 @@ feeds = (
     feed(
         title='argrim',
         href='https://www.deviantart.com/argrim/gallery/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='meowwithme',
@@ -3946,7 +3946,7 @@ feeds = (
     feed(
         title='logancure',
         href='https://www.deviantart.com/logancure/gallery/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='SolKorra',
@@ -4155,7 +4155,7 @@ feeds = (
     feed(
         title='applewhite_uk',
         href='https://www.instagram.com/applewhite_uk/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='irine_meier',
@@ -4234,7 +4234,7 @@ feeds = (
     feed(
         title='shineelvy',
         href='https://www.instagram.com/shineelvy/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='maruvofficial',
@@ -4524,7 +4524,7 @@ feeds = (
     feed(
         title='auauau',
         href='https://www.instagram.com/auauau/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='borusushi',
@@ -4696,7 +4696,7 @@ feeds = (
     feed(
         title='zaytseva_tasha',
         href='https://www.instagram.com/zaytseva_tasha/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='notcamdamage',
@@ -4751,7 +4751,7 @@ feeds = (
     feed(
         title='cheshire_fox',
         href='https://www.instagram.com/cheshire_fox/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='fakenerd',
@@ -4845,7 +4845,7 @@ feeds = (
     feed(
         title='enjinight',
         href='https://www.instagram.com/enjinight/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='mightyraccoon',
@@ -4970,7 +4970,7 @@ feeds = (
     feed(
         title='purplemuffinz',
         href='https://www.instagram.com/purplemuffinz/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='armoredheartcosplay',
@@ -5230,7 +5230,7 @@ feeds = (
     feed(
         title='latexthrowback',
         href='https://www.instagram.com/latexthrowback/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='bast_model',
@@ -5465,7 +5465,7 @@ feeds = (
     feed(
         title='nastyafirebird',
         href='https://www.instagram.com/nastyafirebird/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='gurinovich2707',
@@ -5785,7 +5785,7 @@ feeds = (
     feed(
         title='natalee_007',
         href='https://www.instagram.com/natalee.007/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='geekelysium',
