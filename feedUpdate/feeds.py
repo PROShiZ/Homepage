@@ -4509,7 +4509,7 @@ feeds = (
     feed(
         title='jannetincosplay',
         href='https://www.instagram.com/jannetincosplay/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='jannetway',
@@ -5835,7 +5835,7 @@ feeds = (
     feed(
         title='MAVRINstudios',
         href='https://www.instagram.com/MAVRINstudios/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='plant_lily',
