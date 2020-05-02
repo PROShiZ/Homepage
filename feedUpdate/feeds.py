@@ -951,6 +951,16 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='JoCatPersonal',
+        href='https://www.youtube.com/channel/UCWNC8DQoleDfsunvme3Itkw/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='JoCatHIJEK',
+        href='https://www.youtube.com/channel/UCvmCD9D9pbS-Q7NIUMX5OGg/videos',
+        emojis='💎'
+    ),
+    feed(
         title='ВладимирЧайкин',
         href='https://www.youtube.com/channel/UC_mPBfl442yiubiPyswqulA/videos',
     ),
@@ -5645,7 +5655,7 @@ feeds = (
     feed(
         title='dia_topor',
         href='https://www.instagram.com/dia.topor/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='missbeylahughes',
