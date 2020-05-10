@@ -74,13 +74,19 @@ feeds = (
         title_full='Dollar and Wolfe Trading Co',
         href='feed:https://www.webtoons.com/en/challenge/dollar-and-wolfe-trading-co/rss?title_no=102392',
         href_title='https://www.webtoons.com/en/challenge/dollar-and-wolfe-trading-co/list?title_no=102392',
-        emojis='💎📧'
+        emojis='💎'
     ),
     feed(
         title='InYourFaceCake',
         href='feed:https://www.webtoons.com/en/challenge/in-your-face-cake/rss?title_no=107036',
         href_title='https://www.webtoons.com/en/challenge/in-your-face-cake/list?title_no=107036',
-        emojis='💎📧'
+        emojis='💎'
+    ),
+    feed(
+        title='Punderworld',
+        href='feed:https://www.webtoons.com/en/challenge/punderworld/rss?title_no=312584',
+        href_title='https://www.webtoons.com/en/challenge/punderworld/list?title_no=312584',
+        emojis='💎'
     ),
     # feed(
     #     title='Симпсоны',
@@ -1711,7 +1717,6 @@ feeds = (
         title_full='Тинькофф-Журнал',
         href='https://journal.tinkoff.ru/feed/',
         href_title='https://journal.tinkoff.ru',
-        emojis='💎',
     ),
     feed(
         title='MechanicalGodEmperor',
@@ -1993,7 +1998,6 @@ feeds = (
         title='АнтонЖиянов',
         href='https://antonz.ru/rss/',
         href_title='https://antonz.ru',
-        emojis='💎',
     ),
     feed(
         title='Expresso',
@@ -2113,6 +2117,12 @@ feeds = (
         href='https://twitrss.me/twitter_user_to_rss/?user=leniviy_art',
         href_title='https://leniviyart.com/illustration',
         emojis='💎🏮'
+    ),
+    feed(
+        title='RPGbot',
+        href='https://twitrss.me/twitter_user_to_rss/?user=RPGBOTDOTNET',
+        href_title='https://twitter.com/RPGBOTDOTNET',
+        emojis='💎'
     ),
     feed(
         title='a_shalimoff',
@@ -2324,6 +2334,42 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='carolinaust',
+        href='https://carolinaust.artstation.com/rss',
+        href_title='https://carolinaust.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='lmthnhquang',
+        href='https://lmthnhquang.artstation.com/rss',
+        href_title='https://lmthnhquang.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='kumoscloud',
+        href='https://kumoscloud.artstation.com/rss',
+        href_title='https://kumoscloud.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='reliah',
+        href='https://reliah.artstation.com/rss',
+        href_title='https://reliah.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='nezt',
+        href='https://nezt.artstation.com/rss',
+        href_title='https://nezt.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='jasonchan',
+        href='https://jasonchan.artstation.com/rss',
+        href_title='https://jasonchan.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
         title='lacticwanda',
         href='https://lacticwanda.artstation.com/rss',
         href_title='https://lacticwanda.artstation.com/projects',
@@ -2417,6 +2463,12 @@ feeds = (
         title='kyunghankim',
         href='https://kyunghankim.artstation.com/rss',
         href_title='https://kyunghankim.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='draken4o',
+        href='https://draken4o.artstation.com/rss',
+        href_title='https://draken4o.artstation.com/projects',
         emojis='💎🏮'
     ),
     feed(
@@ -2585,6 +2637,24 @@ feeds = (
         title='songjong',
         href='https://songjong.artstation.com/rss',
         href_title='https://songjong.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='kuru',
+        href='https://kuru.artstation.com/rss',
+        href_title='https://kuru.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='dioknarf',
+        href='https://dioknarf.artstation.com/rss',
+        href_title='https://dioknarf.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='vietkhoa',
+        href='https://vietkhoa.artstation.com/rss',
+        href_title='https://vietkhoa.artstation.com/projects',
         emojis='💎🏮'
     ),
     feed(
@@ -2804,7 +2874,6 @@ feeds = (
         title='DnDBeyond',
         href='feed:https://www.dndbeyond.com/posts.rss',
         href_title='https://www.dndbeyond.com/posts',
-        emojis='💎'
     ),
     feed(
         title='carmessi',
@@ -4138,6 +4207,171 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='lydia3662',
+        href='https://www.instagram.com/lydia3662/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='mijin__choi',
+        href='https://www.instagram.com/mijin__choi/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='suen9920',
+        href='https://www.instagram.com/suen9920/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='jjoo_poledancer',
+        href='https://www.instagram.com/jjoo_poledancer/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='crystalgibsondancer',
+        href='https://www.instagram.com/crystalgibsondancer/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='bendygio',
+        href='https://www.instagram.com/bendygio/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='badapoledancer',
+        href='https://www.instagram.com/badapoledancer/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='hyan99i___j',
+        href='https://www.instagram.com/hyan99i._.j/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='mindaenggu',
+        href='https://www.instagram.com/mindaenggu/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='liza_simba_exoticpole',
+        href='https://www.instagram.com/liza_simba_exoticpole/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='matrix_dominatrix_',
+        href='https://www.instagram.com/matrix_dominatrix_/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='zaytseva_tasha',
+        href='https://www.instagram.com/zaytseva_tasha/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='ladalyumos',
+        href='https://www.instagram.com/ladalyumos/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='threnodyinvelvet',
+        href='https://www.instagram.com/threnodyinvelvet/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='aerial_allie',
+        href='https://www.instagram.com/aerial_allie/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='fitsensetop',
+        href='https://www.instagram.com/fitsensetop/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='senada_greca',
+        href='https://www.instagram.com/senada.greca/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='idajemina',
+        href='https://www.instagram.com/idajemina/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='michie_peachie',
+        href='https://www.instagram.com/michie_peachie/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='abgirlsvideos',
+        href='https://www.instagram.com/abgirlsvideos/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='kimfrench87',
+        href='https://www.instagram.com/kimfrench87/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='abs_at_home',
+        href='https://www.instagram.com/abs_at_home/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='laurensimpson',
+        href='https://www.instagram.com/laurensimpson/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='squatadvice',
+        href='https://www.instagram.com/squatadvice/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='female6packguide',
+        href='https://www.instagram.com/female6packguide/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='senada_greca',
+        href='https://www.instagram.com/senada.greca/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='fitnesstutorial.ig',
+        href='https://www.instagram.com/fitnesstutorial.ig/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='folksfit',
+        href='https://www.instagram.com/folksfit/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='squat_guide',
+        href='https://www.instagram.com/squat.guide/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='lisafiitt',
+        href='https://www.instagram.com/lisafiitt/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='homesquatguide',
+        href='https://www.instagram.com/homesquatguide/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='abgirlsguide',
+        href='https://www.instagram.com/abgirlsguide/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='krystallca',
+        href='https://www.instagram.com/krystallca/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='aristess',
         href='https://www.instagram.com/aristess/',
         emojis='💎🏮',
@@ -4150,11 +4384,21 @@ feeds = (
     feed(
         title='valery_himera',
         href='https://www.instagram.com/valery_himera/',
+        emojis='🏮',
+    ),
+    feed(
+        title='icy_reid',
+        href='https://www.instagram.com/icy_reid/',
         emojis='💎🏮',
     ),
     feed(
         title='roga_na_noge',
         href='https://www.instagram.com/roga_na_noge/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='tanyaxcheung',
+        href='https://www.instagram.com/tanyaxcheung/',
         emojis='💎🏮',
     ),
     feed(
@@ -4195,7 +4439,7 @@ feeds = (
     feed(
         title='ivanahyde_',
         href='https://www.instagram.com/ivanahyde_/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='oabramovich',
@@ -4945,7 +5189,7 @@ feeds = (
     feed(
         title='svetlana_fedorkevich',
         href='https://www.instagram.com/svetlana_fedorkevich/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='allisonstokke',
@@ -5090,7 +5334,7 @@ feeds = (
     feed(
         title='shirogane_sama',
         href='https://www.instagram.com/shirogane_sama/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='xandrastax',
