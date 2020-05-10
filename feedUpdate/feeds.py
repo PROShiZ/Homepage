@@ -4202,18 +4202,8 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='krystallca',
-        href='https://www.instagram.com/krystallca/',
-        emojis='💎🏮',
-    ),
-    feed(
         title='lydia3662',
         href='https://www.instagram.com/lydia3662/',
-        emojis='💎🏮',
-    ),
-    feed(
-        title='mijin__choi',
-        href='https://www.instagram.com/mijin__choi/',
         emojis='💎🏮',
     ),
     feed(
@@ -4262,11 +4252,6 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='zaytseva_tasha',
-        href='https://www.instagram.com/zaytseva_tasha/',
-        emojis='💎🏮',
-    ),
-    feed(
         title='ladalyumos',
         href='https://www.instagram.com/ladalyumos/',
         emojis='💎🏮',
@@ -4284,11 +4269,6 @@ feeds = (
     feed(
         title='fitsensetop',
         href='https://www.instagram.com/fitsensetop/',
-        emojis='💎🏮',
-    ),
-    feed(
-        title='senada_greca',
-        href='https://www.instagram.com/senada.greca/',
         emojis='💎🏮',
     ),
     feed(
@@ -4337,7 +4317,7 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='fitnesstutorial.ig',
+        title='fitnesstutorial_ig',
         href='https://www.instagram.com/fitnesstutorial.ig/',
         emojis='💎🏮',
     ),
@@ -4420,11 +4400,6 @@ feeds = (
         title='zendaya',
         href='https://www.instagram.com/zendaya/',
         emojis='💎',
-    ),
-    feed(
-        title='lisafiitt',
-        href='https://www.instagram.com/lisafiitt/',
-        emojis='🏮',
     ),
     feed(
         title='ladygaga',
@@ -4839,11 +4814,6 @@ feeds = (
         emojis='🏮',
     ),
     feed(
-        title='threnodyinvelvet',
-        href='https://www.instagram.com/threnodyinvelvet/',
-        emojis='🏮',
-    ),
-    feed(
         title='miss_aurora_shine',
         href='https://www.instagram.com/miss_aurora_shine/',
         emojis='🏮',
@@ -5197,11 +5167,6 @@ feeds = (
         emojis='🏮',
     ),
     feed(
-        title='michie_peachie',
-        href='https://www.instagram.com/michie_peachie/',
-        emojis='🏮',
-    ),
-    feed(
         title='endzaadair',
         href='https://www.instagram.com/endzaadair/',
         emojis='🏮',
@@ -5419,11 +5384,6 @@ feeds = (
     feed(
         title='verabambilive',
         href='https://www.instagram.com/verabambilive/',
-        emojis='🏮',
-    ),
-    feed(
-        title='laurensimpson',
-        href='https://www.instagram.com/laurensimpson/',
         emojis='🏮',
     ),
     feed(
@@ -5699,11 +5659,6 @@ feeds = (
     feed(
         title='eliselaurenne',
         href='https://www.instagram.com/eliselaurenne/',
-        emojis='🏮',
-    ),
-    feed(
-        title='badapoledancer',
-        href='https://www.instagram.com/badapoledancer/',
         emojis='🏮',
     ),
     feed(
