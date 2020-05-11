@@ -2505,7 +2505,6 @@ feeds = (
         title='alexchow',
         href='https://alexchow.artstation.com/rss',
         href_title='https://alexchow.artstation.com/projects',
-        emojis='💎🏮'
     ),
     feed(
         title='doski',
@@ -4252,6 +4251,21 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='gggoziii',
+        href='https://www.instagram.com/gggoziii/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='sofa_exotic_official',
+        href='https://www.instagram.com/sofa_exotic_official/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='hjn_o',
+        href='https://www.instagram.com/hjn_o/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='ladalyumos',
         href='https://www.instagram.com/ladalyumos/',
         emojis='💎🏮',
@@ -4319,11 +4333,6 @@ feeds = (
     feed(
         title='fitnesstutorial_ig',
         href='https://www.instagram.com/fitnesstutorial.ig/',
-        emojis='💎🏮',
-    ),
-    feed(
-        title='folksfit',
-        href='https://www.instagram.com/folksfit/',
         emojis='💎🏮',
     ),
     feed(
@@ -4758,6 +4767,36 @@ feeds = (
     feed(
         title='borusushi',
         href='https://www.instagram.com/borusushi/',
+        emojis='🏮',
+    ),
+    feed(
+        title='chie_lizpole',
+        href='https://www.instagram.com/chie_lizpole/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='baby_bonita19',
+        href='https://www.instagram.com/baby_bonita19/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='daeeun___',
+        href='https://www.instagram.com/daeeun___/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='schuklina_',
+        href='https://www.instagram.com/schuklina_/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='pizzasarang3',
+        href='https://www.instagram.com/pizzasarang3/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='blingyaugust',
+        href='https://www.instagram.com/blingyaugust/',
         emojis='💎🏮',
     ),
     feed(
@@ -5440,6 +5479,31 @@ feeds = (
         title='elvyshine',
         href='https://www.instagram.com/elvyshine/',
         emojis='🏮',
+    ),
+    feed(
+        title='iamspecialized',
+        href='https://www.instagram.com/iamspecialized/',
+        emojis='💎',
+    ),
+    feed(
+        title='iamspecialized_adv',
+        href='https://www.instagram.com/iamspecialized_adv/',
+        emojis='💎',
+    ),
+    feed(
+        title='shcheglovav',
+        href='https://www.instagram.com/shcheglovav/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='yj_poledancer',
+        href='https://www.instagram.com/yj.poledancer/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='matevaa_',
+        href='https://www.instagram.com/matevaa_/',
+        emojis='💎🏮',
     ),
     feed(
         title='latexthrowback',
