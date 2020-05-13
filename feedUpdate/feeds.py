@@ -893,6 +893,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='MinuLansakYT',
+        href='https://www.youtube.com/channel/UCUQzwK5cg75NJONc1PSJcRA/videos',
+        emojis='💎🏮'
+    ),
+    feed(
         title='WylsaLive',
         href='https://www.youtube.com/channel/UCAfkLSa-ujPKhniiKZ2bCHg/videos',
         emojis='💎'
@@ -4326,6 +4331,51 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='_n_m00n_',
+        href='https://www.instagram.com/_n.m00n_/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='terri_fierce',
+        href='https://www.instagram.com/terri_fierce/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='marie4pole',
+        href='https://www.instagram.com/marie4pole/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='nina_kozub',
+        href='https://www.instagram.com/nina_kozub/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='hjn_o',
+        href='https://www.instagram.com/hjn_o/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='iding410',
+        href='https://www.instagram.com/iding410/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='hyan99i___j',
+        href='https://www.instagram.com/hyan99i._.j/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='jamsai_rachaya',
+        href='https://www.instagram.com/jamsai_rachaya/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='tungpangcycling',
+        href='https://www.instagram.com/tungpangcycling/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='senada_greca',
         href='https://www.instagram.com/senada.greca/',
         emojis='💎🏮',
@@ -5730,6 +5780,36 @@ feeds = (
         href='https://www.instagram.com/yle4ka_001/',
         emojis='🏮',
     ),
+    feed(
+        title='mindaenggu',
+        href='https://www.instagram.com/mindaenggu/',
+        emojis='💎🏮',
+    ), 
+    feed(
+        title='goxolivia',
+        href='https://www.instagram.com/goxolivia/',
+        emojis='💎🏮',
+    ), 
+    feed(
+        title='soma_ride',
+        href='https://www.instagram.com/soma_ride/',
+        emojis='💎🏮',
+    ), 
+    feed(
+        title='petrenkoartem',
+        href='https://www.instagram.com/petrenkoartem/',
+        emojis='💎',
+    ), 
+    feed(
+        title='yangayoung',
+        href='https://www.instagram.com/yangayoung/',
+        emojis='💎🏮',
+    ), 
+    feed(
+        title='evo_latex',
+        href='https://www.instagram.com/evo_latex/',
+        emojis='💎🏮',
+    ), 
     feed(
         title='mylatexbabyInst',
         href='https://www.instagram.com/mylatexbaby/',
