@@ -289,6 +289,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='MarbleLeague',
+        href='https://www.youtube.com/channel/UCYJdpnjuSWVOLgGT9fIzL0g/videos',
+        emojis='💎',
+    ),
+    feed(
         title='Астамуринг',
         href='https://www.youtube.com/channel/UCwqpU4SDWcRpL9YIuwYtF1A/videos',
     ),
@@ -4347,11 +4352,6 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='threnodyinvelvet',
-        href='https://www.instagram.com/threnodyinvelvet/',
-        emojis='💎🏮',
-    ),
-    feed(
         title='dehadria',
         href='https://www.instagram.com/dehadria/',
         emojis='💎🏮',
@@ -4597,11 +4597,6 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='cernyfit',
-        href='https://www.instagram.com/cernyfit/',
-        emojis='💎🏮',
-    ),
-    feed(
         title='hollyrafaela',
         href='https://www.instagram.com/hollyrafaela/',
         emojis='💎🏮',
@@ -4684,11 +4679,6 @@ feeds = (
     feed(
         title='roga_na_noge',
         href='https://www.instagram.com/roga_na_noge/',
-        emojis='💎🏮',
-    ),
-    feed(
-        title='tanyaxcheung',
-        href='https://www.instagram.com/tanyaxcheung/',
         emojis='💎🏮',
     ),
     feed(
@@ -6247,11 +6237,6 @@ feeds = (
         emojis='🏮',
     ),
     feed(
-        title='aitenshimisha',
-        href='https://www.instagram.com/aitenshimisha/',
-        emojis='🏮',
-    ),
-    feed(
         title='fetish_erotica',
         href='https://www.instagram.com/fetish_erotica/',
         emojis='🏮',
@@ -6424,11 +6409,6 @@ feeds = (
     feed(
         title='hessakai',
         href='https://www.instagram.com/hessakai/',
-        emojis='🏮',
-    ),
-    feed(
-        title='royalblack_couture',
-        href='https://www.instagram.com/royalblack_couture/',
         emojis='🏮',
     ),
     feed(
