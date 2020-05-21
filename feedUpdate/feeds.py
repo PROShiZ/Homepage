@@ -2350,6 +2350,12 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='blas_t',
+        href='https://blas-t.artstation.com/rss',
+        href_title='https://blas-t.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
         title='carolinaust',
         href='https://carolinaust.artstation.com/rss',
         href_title='https://carolinaust.artstation.com/projects',
@@ -2936,7 +2942,7 @@ feeds = (
         title='Gmeen',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Gmeen',
         href_title='http://www.hentai-foundry.com/pictures/user/Gmeen',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='SatyrSatyr',
@@ -4347,6 +4353,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='waistedandweightloss',
+        href='https://www.instagram.com/waistedandweightloss/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='absentia_veil',
         href='https://www.instagram.com/absentia_veil/',
         emojis='💎🏮',
@@ -4359,7 +4370,7 @@ feeds = (
     feed(
         title='hannnasofiaa',
         href='https://www.instagram.com/hannnasofiaa/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='gainsbybrains',
@@ -4417,8 +4428,43 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='fenyachan',
+        href='https://www.instagram.com/fenyachan/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='kapitan__kek',
+        href='https://www.instagram.com/kapitan__kek/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='tatianka_tattoo',
+        href='https://www.instagram.com/tatianka_tattoo/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='abs_at_home',
         href='https://www.instagram.com/abs_at_home/',
+        emojis='🏮',
+    ),
+    feed(
+        title='ashleyfloresfit',
+        href='https://www.instagram.com/ashleyfloresfit/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='jenna_deleon',
+        href='https://www.instagram.com/jenna.deleon/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='anete_blaua',
+        href='https://www.instagram.com/anete.blaua/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='olga_biserova',
+        href='https://www.instagram.com/olga.biserova/',
         emojis='💎🏮',
     ),
     feed(
@@ -5539,7 +5585,7 @@ feeds = (
     feed(
         title='svetlana_fedorkevich',
         href='https://www.instagram.com/svetlana_fedorkevich/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='allisonstokke',
@@ -5749,7 +5795,7 @@ feeds = (
     feed(
         title='espana927',
         href='https://www.instagram.com/espana927/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='michelle_lewin',
