@@ -5518,6 +5518,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='ohheyitskaylak',
+        href='https://www.instagram.com/ohheyitskaylak/',
+        emojis='💎',
+    ),
+    feed(
         title='aliciamariebody',
         href='https://www.instagram.com/aliciamariebody/',
         emojis='💎🏮',
