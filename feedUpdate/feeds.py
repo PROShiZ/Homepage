@@ -2350,6 +2350,12 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='missamethysa',
+        href='https://missamethysa.artstation.com/rss',
+        href_title='https://missamethysa.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
         title='blas_t',
         href='https://blas-t.artstation.com/rss',
         href_title='https://blas-t.artstation.com/projects',
@@ -4305,7 +4311,7 @@ feeds = (
     feed(
         title='whoisjillea',
         href='https://www.instagram.com/whoisjillea/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='aerial_allie',
@@ -4315,7 +4321,7 @@ feeds = (
     feed(
         title='fitsensetop',
         href='https://www.instagram.com/fitsensetop/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='idajemina',
@@ -4325,7 +4331,7 @@ feeds = (
     feed(
         title='sjamesfit',
         href='https://www.instagram.com/sjamesfit/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='tanyaxcheung',
@@ -4340,7 +4346,7 @@ feeds = (
     feed(
         title='kirakaylene',
         href='https://www.instagram.com/kirakaylene/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='wytephantom',
@@ -4405,7 +4411,7 @@ feeds = (
     feed(
         title='vickydevika',
         href='https://www.instagram.com/vickydevika/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='mkfitnes',
@@ -4415,7 +4421,7 @@ feeds = (
     feed(
         title='meganediioia',
         href='https://www.instagram.com/meganediioia/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='valentinalequeux',
@@ -4465,7 +4471,7 @@ feeds = (
     feed(
         title='olga_biserova',
         href='https://www.instagram.com/olga.biserova/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='laurensimpson',
@@ -4475,7 +4481,7 @@ feeds = (
     feed(
         title='squatadvice',
         href='https://www.instagram.com/squatadvice/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='female6packguide',
@@ -4490,7 +4496,7 @@ feeds = (
     feed(
         title='terri_fierce',
         href='https://www.instagram.com/terri_fierce/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='marie4pole',
@@ -4520,7 +4526,7 @@ feeds = (
     feed(
         title='senada_greca',
         href='https://www.instagram.com/senada.greca/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='fitnesstutorial_ig',
@@ -4560,7 +4566,7 @@ feeds = (
     feed(
         title='autumnfallsx',
         href='https://www.instagram.com/autumnfallsx/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='fegalvao_',
@@ -4590,7 +4596,7 @@ feeds = (
     feed(
         title='alittletaeste',
         href='https://www.instagram.com/alittletaeste/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='tiny_batty',
@@ -4700,7 +4706,7 @@ feeds = (
     feed(
         title='krystallca',
         href='https://www.instagram.com/krystallca/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='aristess',
@@ -5084,7 +5090,7 @@ feeds = (
     feed(
         title='slowswan',
         href='https://www.instagram.com/slowswan/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='alekay_salakruthai',
@@ -5515,7 +5521,7 @@ feeds = (
     feed(
         title='disharmonica',
         href='https://www.instagram.com/disharmonica/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='ohheyitskaylak',
