@@ -1489,6 +1489,12 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='3см',
+        title_full='Охотник ростом 3 см',
+        href='http://readmanga.me/ohotnik_rostom_3_sm',
+        emojis='💎'
+    ),
+    feed(
         title='FairyTail100',
         title_full='Fairy Tail: 100 Years Quest',
         href='http://readmanga.me/fairy_tail__100_years_quest',
@@ -2047,12 +2053,6 @@ feeds = (
         href='https://reiquintero.tumblr.com/rss',
         href_title='https://reiquintero.tumblr.com',
         emojis='🏮'
-    ),
-    feed(
-        title='helixel',
-        href='https://helixel.tumblr.com/rss',
-        href_title='https://helixel.tumblr.com',
-        emojis='💎🏮'
     ),
     feed(
         title='cherrymousestreet',
@@ -3621,6 +3621,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='helixelDA',
+        href='https://www.deviantart.com/helixel/gallery/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='viviphyd',
         href='https://www.deviantart.com/viviphyd/gallery/',
         emojis='💎🏮',
@@ -4472,7 +4477,7 @@ feeds = (
     feed(
         title='tatianka_tattoo',
         href='https://www.instagram.com/tatianka_tattoo/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='abs_at_home',
@@ -4532,12 +4537,12 @@ feeds = (
     feed(
         title='iding410',
         href='https://www.instagram.com/iding410/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='jamsai_rachaya',
         href='https://www.instagram.com/jamsai_rachaya/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='tungpangcycling',
@@ -4772,7 +4777,7 @@ feeds = (
     feed(
         title='velyyson_g',
         href='https://www.instagram.com/velyyson_g/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='valery_himera',
@@ -5039,11 +5044,6 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='lacywaistingaway',
-        href='https://www.instagram.com/lacywaistingaway/',
-        emojis='💎🏮',
-    ),
-    feed(
         title='tightlacetinywaist',
         href='https://www.instagram.com/tightlacetinywaist/',
         emojis='💎🏮',
@@ -5129,9 +5129,9 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='raikoart',
-        href='https://www.instagram.com/raikoart/',
-        emojis='🏮',
+        title='koshcocs',
+        href='https://www.instagram.com/koshcocs/',
+        emojis='💎🏮',
     ),
     feed(
         title='lucycatofficial',
@@ -5166,7 +5166,7 @@ feeds = (
     feed(
         title='albinadylaofficial',
         href='https://www.instagram.com/albinadylaofficial/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='j_jjungjjung93',
@@ -5276,7 +5276,7 @@ feeds = (
     feed(
         title='blingyaugust',
         href='https://www.instagram.com/blingyaugust/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='mykinkydope',
@@ -5637,7 +5637,7 @@ feeds = (
     feed(
         title='carobones',
         href='https://www.instagram.com/carobones/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='lottelavey',
@@ -5992,7 +5992,7 @@ feeds = (
     feed(
         title='yj_poledancer',
         href='https://www.instagram.com/yj.poledancer/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='matevaa_',
@@ -6112,7 +6112,7 @@ feeds = (
     feed(
         title='alyona_soooul_official',
         href='https://www.instagram.com/alyona_soooul.official/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='anela_kuzmina',
@@ -6437,7 +6437,7 @@ feeds = (
     feed(
         title='nastyakyzmina63',
         href='https://www.instagram.com/nastyakyzmina63/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='dia_topor',
@@ -6602,7 +6602,7 @@ feeds = (
     feed(
         title='anete_blaua',
         href='https://www.instagram.com/anete.blaua/',
-        emojis='💎🏮',
+        emojis='🏮',
     ), 
     feed(
         title='mavrin',
