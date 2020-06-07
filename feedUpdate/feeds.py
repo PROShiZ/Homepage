@@ -4265,6 +4265,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='helixel',
+        href='https://www.instagram.com/helixel/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='suen9920',
         href='https://www.instagram.com/suen9920/',
         emojis='💎🏮',
