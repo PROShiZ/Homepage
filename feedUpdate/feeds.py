@@ -6605,6 +6605,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='rachelannjensen',
+        href='https://www.instagram.com/rachelannjensen/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='anete_blaua',
         href='https://www.instagram.com/anete.blaua/',
         emojis='🏮',
