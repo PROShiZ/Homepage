@@ -308,6 +308,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='НежныйРедактор',
+        href='https://www.youtube.com/channel/UCByhZ-JEe5OOZSuq0uaXOng/videos',
+        emojis='💎'
+    ),
+    feed(
         title='ОркПодкастер',
         href='https://www.youtube.com/channel/UCedqnsVXjFlao53mKg7mnkQ/videos',
         emojis='💎'
@@ -589,7 +594,7 @@ feeds = (
         emojis='💎'
     ),
     feed(
-        title='EnterShowman',
+        title='StandUpPetersburg',
         href='https://www.youtube.com/channel/UCS_3eCq4P3du6e8tlXrNClA/videos',
         emojis='💎'
     ),
@@ -2352,6 +2357,72 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='helgesonart',
+        href='https://helgesonart.artstation.com/rss',
+        href_title='https://helgesonart.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='damo_chen',
+        href='https://damo_chen.artstation.com/rss',
+        href_title='https://damo_chen.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='alexallen',
+        href='https://alexallen.artstation.com/rss',
+        href_title='https://alexallen.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='do_re',
+        href='https://do_re.artstation.com/rss',
+        href_title='https://do_re.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='jonjonee',
+        href='https://jonjonee.artstation.com/rss',
+        href_title='https://jonjonee.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='armond',
+        href='https://armond.artstation.com/rss',
+        href_title='https://armond.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='moruga',
+        href='https://moruga.artstation.com/rss',
+        href_title='https://moruga.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='guan_yu',
+        href='https://guan-yu.artstation.com/rss',
+        href_title='https://guan-yu.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='snatti',
+        href='https://snatti.artstation.com/rss',
+        href_title='https://snatti.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='sukeart',
+        href='https://sukeart.artstation.com/rss',
+        href_title='https://sukeart.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='fufuhol',
+        href='https://fufuhol.artstation.com/rss',
+        href_title='https://fufuhol.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
         title='raikoart',
         href='https://raikoart.artstation.com/rss',
         href_title='https://raikoart.artstation.com/projects',
@@ -2935,6 +3006,12 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='PrywinkoHF',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/Prywinko',
+        href_title='http://www.hentai-foundry.com/pictures/user/Prywinko',
+        emojis='💎🏮'
+    ),
+    feed(
         title='Fellatrix',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Fellatrix',
         href_title='http://www.hentai-foundry.com/pictures/user/Fellatrix',
@@ -3295,6 +3372,18 @@ feeds = (
         emojis='🏮'
     ),
     feed(
+        title='Nyuunzi',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/Nyuunzi',
+        href_title='http://www.hentai-foundry.com/pictures/user/Nyuunzi',
+        emojis='🏮'
+    ),
+    feed(
+        title='carboncats',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/carboncats',
+        href_title='http://www.hentai-foundry.com/pictures/user/carboncats',
+        emojis='🏮'
+    ),
+    feed(
         title='BBCChan',
         href='https://www.hentai-foundry.com/feed/userPictures/username/BBC-Chan',
         href_title='http://www.hentai-foundry.com/pictures/user/BBC-Chan',
@@ -3463,6 +3552,12 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='cesium',
+        href='https://www.hentai-foundry.com/feed/userPictures/username/cesium',
+        href_title='http://www.hentai-foundry.com/pictures/user/cesium',
+        emojis='💎🏮'
+    ),
+    feed(
         title='yupachu',
         href='https://www.hentai-foundry.com/feed/userPictures/username/yupachu',
         href_title='http://www.hentai-foundry.com/pictures/user/yupachu',
@@ -3484,7 +3579,7 @@ feeds = (
         title='hessraart',
         href='https://www.hentai-foundry.com/feed/userPictures/username/hessraart',
         href_title='http://www.hentai-foundry.com/pictures/user/hessraart',
-        emojis='🏮'
+        emojis='💎🏮'
     ),
     feed(
         title='Pupuliini',
@@ -3618,6 +3713,11 @@ feeds = (
     feed(
         title='carmessiDA',
         href='https://www.deviantart.com/carmessi/gallery/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='danielkendi',
+        href='https://www.deviantart.com/danielkendi/gallery/',
         emojis='💎🏮',
     ),
     feed(
@@ -3988,7 +4088,7 @@ feeds = (
     feed(
         title='Prywinko',
         href='https://www.deviantart.com/prywinko/gallery/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='SatsuiNoHado',
@@ -4262,7 +4362,7 @@ feeds = (
     feed(
         title='lydia3662',
         href='https://www.instagram.com/lydia3662/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='helixel',
@@ -4288,6 +4388,11 @@ feeds = (
         title='bendygio',
         href='https://www.instagram.com/bendygio/',
         emojis='💎🏮',
+    ),
+    feed(
+        title='pyroowdaily',
+        href='https://www.instagram.com/pyroowdaily/',
+        emojis='💎',
     ),
     feed(
         title='badapoledancer',
@@ -4525,6 +4630,21 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='steffieharner',
+        href='https://www.instagram.com/steffieharner/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='astasiadream',
+        href='https://www.instagram.com/astasiadream/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='paralllaxus',
+        href='https://www.instagram.com/paralllaxus/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='terri_fierce',
         href='https://www.instagram.com/terri_fierce/',
         emojis='🏮',
@@ -4532,7 +4652,7 @@ feeds = (
     feed(
         title='marie4pole',
         href='https://www.instagram.com/marie4pole/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='nina_kozub',
@@ -4885,7 +5005,7 @@ feeds = (
     feed(
         title='fetishdeluxe',
         href='https://www.instagram.com/fetishdeluxe/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='reserved',
@@ -4926,7 +5046,7 @@ feeds = (
     feed(
         title='volobueva_kat',
         href='https://www.instagram.com/volobueva_kat/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='agent_yummy',
@@ -5061,6 +5181,11 @@ feeds = (
     feed(
         title='sister_sinister',
         href='https://www.instagram.com/sister_sinister/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='ludmilasharko',
+        href='https://www.instagram.com/ludmilasharko/',
         emojis='💎🏮',
     ),
     feed(
@@ -6107,7 +6232,6 @@ feeds = (
     feed(
         title='cropp_clothing',
         href='https://www.instagram.com/cropp_clothing/',
-        emojis='💎',
     ),
     feed(
         title='xenon_cosplay',
@@ -6517,6 +6641,11 @@ feeds = (
     feed(
         title='eugenechulitskyphotography',
         href='https://www.instagram.com/eugenechulitskyphotography/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='ludmilasharko',
+        href='https://www.instagram.com/ludmilasharko/',
         emojis='💎🏮',
     ),
     feed(
