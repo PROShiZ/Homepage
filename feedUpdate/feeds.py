@@ -2439,12 +2439,6 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
-        title='do_re',
-        href='https://do_re.artstation.com/rss',
-        href_title='https://do_re.artstation.com/projects',
-        emojis='💎🏮'
-    ),
-    feed(
         title='jonjonee',
         href='https://jonjonee.artstation.com/rss',
         href_title='https://jonjonee.artstation.com/projects',
@@ -3440,12 +3434,6 @@ feeds = (
         href='https://www.hentai-foundry.com/feed/userPictures/username/Skadiii',
         href_title='http://www.hentai-foundry.com/pictures/user/Skadiii',
         emojis='💎🏮'
-    ),
-    feed(
-        title='hotpinkevilbunny',
-        href='https://www.hentai-foundry.com/feed/userPictures/username/hotpinkevilbunny',
-        href_title='http://www.hentai-foundry.com/pictures/user/hotpinkevilbunny',
-        emojis='🏮'
     ),
     feed(
         title='Fetishhand',
@@ -4665,7 +4653,7 @@ feeds = (
     feed(
         title='kalinatesa',
         href='https://www.instagram.com/kalinatesa/',
-        emojis='💎🏮',
+        emojis='🏮',
     ),
     feed(
         title='michie_peachie',
