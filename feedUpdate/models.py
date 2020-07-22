@@ -247,7 +247,8 @@ class feed(models.Model):
                     print(f"result_datetime broke for { self.title }")
                 
                 tzinfos = {'PDT': gettz("America/Los_Angeles"), 'PST': gettz("America/Juneau")}
-                result_datetime = parser.parse(result_datetime, tzinfos=tzinfos)
+                if not isinstance(result_datetime, datetime):
+                    result_datetime = parser.parse(result_datetime, tzinfos=tzinfos)
 
                 # APPEND RESULT
                 result.append(feedUpdate(
