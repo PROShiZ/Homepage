@@ -2167,13 +2167,13 @@ feeds = (
         title='r_gravelcycling',
         href='http://www.reddit.com/r/gravelcycling/.rss',
         href_title='https://www.reddit.com/r/gravelcycling',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='r_UnearthedArcana',
         href='http://www.reddit.com/r/UnearthedArcana/.rss',
         href_title='https://www.reddit.com/r/UnearthedArcana',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='DOU',
