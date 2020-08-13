@@ -2174,40 +2174,6 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
-        title='r_UpliftingNews',
-        href='http://www.reddit.com/r/UpliftingNews/.rss',
-        href_title='https://www.reddit.com/r/UpliftingNews',
-    ),
-    feed(
-        title='r_programming',
-        href='http://www.reddit.com/r/programming/.rss',
-        href_title='https://www.reddit.com/r/programming',
-    ),
-    feed(
-        title='r_ShinyPorn',
-        href='http://www.reddit.com/r/ShinyPorn/.rss',
-        href_title='https://www.reddit.com/r/ShinyPorn',
-        emojis='💎🏮'
-    ),
-    feed(
-        title='r_TheGriffonsSaddlebag',
-        href='http://www.reddit.com/r/TheGriffonsSaddlebag/.rss',
-        href_title='https://www.reddit.com/r/TheGriffonsSaddlebag',
-        emojis='💎🏮'
-    ),
-    feed(
-        title='r_gravelcycling',
-        href='http://www.reddit.com/r/gravelcycling/.rss',
-        href_title='https://www.reddit.com/r/gravelcycling',
-        emojis='🏮'
-    ),
-    feed(
-        title='r_UnearthedArcana',
-        href='http://www.reddit.com/r/UnearthedArcana/.rss',
-        href_title='https://www.reddit.com/r/UnearthedArcana',
-        emojis='🏮'
-    ),
-    feed(
         title='DOU',
         href='https://dou.ua/feed/',
         href_title='https://dou.ua/lenta/',
