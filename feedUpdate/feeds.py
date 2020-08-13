@@ -4096,7 +4096,7 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='rashedjrs',
+        title='rashedjrsDA',
         href='https://www.deviantart.com/rashedjrs/gallery/',
         emojis='🏮',
     ),
@@ -4760,11 +4760,6 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='katelyn_runck',
-        href='https://www.instagram.com/katelyn_runck/',
-        emojis='💎🏮',
-    ),
-    feed(
         title='vi4kaburmistrova',
         href='https://www.instagram.com/vi4kaburmistrova/',
         emojis='💎🏮',
@@ -4868,11 +4863,6 @@ feeds = (
         title='xbadassx_official',
         href='https://www.instagram.com/xbadassx_official/',
         emojis='🏮',
-    ),
-    feed(
-        title='vika_poledance',
-        href='https://www.instagram.com/vika_poledance/',
-        emojis='💎🏮',
     ),
     feed(
         title='kayablumstudio',
@@ -5157,11 +5147,6 @@ feeds = (
     feed(
         title='nina_kozub',
         href='https://www.instagram.com/nina_kozub/',
-        emojis='💎🏮',
-    ),
-    feed(
-        title='matevaa_',
-        href='https://www.instagram.com/matevaa_/',
         emojis='💎🏮',
     ),
     feed(
