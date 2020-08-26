@@ -1,0 +1,25 @@
+<h1>Docker cheatsheet</h1>
+
+<div>
+    <h2>Commands: Maintenance</h2>
+    <a>
+        <span>stop and remove all containers: </span>
+        <span>docker container stop $(docker container ls -aq); docker container rm $(docker container ls -aq)</span>
+    </a>
+    <a>
+        <span>remove all image cache: </span>
+        <span>docker image prune -a</span>
+    </a>
+    <a>
+        <span>clear Docker data: </span>
+        <span>docker container stop $(docker container ls -aq); docker container rm $(docker container ls -aq); docker image prune -a</span>
+    </a>
+    <a>
+        <span>docker-compose up: </span>
+        <span>docker-compose up</span>
+    </a>
+    <a>
+        <span>docker-compose up (build from scratch, remove containers from previous deprecated versions of docker-compose, recreate containers even if their configuration and image haven't changed.): </span>
+        <span>docker-compose up --build --remove-orphans --force-recreate</span>
+    </a>
+</div>
