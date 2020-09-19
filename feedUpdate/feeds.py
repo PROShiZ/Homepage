@@ -690,7 +690,7 @@ feeds = (
     ),
     feed(
         title='SethHacks',
-        title_full="Seth's Bike Hacks",
+        title_full="Berm Peak: Seth's Bike Hacks",
         href='https://www.youtube.com/channel/UCu8YylsPiu9XfaQC74Hr_Gw/videos',
         emojis='💎'
     ),
@@ -1092,6 +1092,11 @@ feeds = (
         href='https://www.youtube.com/channel/UCvmCD9D9pbS-Q7NIUMX5OGg/videos',
     ),
     feed(
+        title='JessJackdaw',
+        href='https://www.youtube.com/channel/UC3HyvfrwscLKtE_NmOQfWGw/videos',
+        emojis='💎'
+    ),
+    feed(
         title='ВладимирЧайкин',
         href='https://www.youtube.com/channel/UC_mPBfl442yiubiPyswqulA/videos',
     ),
@@ -1452,7 +1457,6 @@ feeds = (
         title='inmyroom',
         href='feed:https://www.inmyroom.ru/?format=atom',
         href_title='https://www.inmyroom.ru',
-        emojis='💎'
     ),
     feed(
         title='DnD',
@@ -2248,6 +2252,12 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='RobustaArt',
+        href='https://twitrss.me/twitter_user_to_rss/?user=RobustaArt',
+        href_title='https://twitter.com/RobustaArt',
+        emojis='💎'
+    ),
+    feed(
         title='RPGbot',
         href='https://twitrss.me/twitter_user_to_rss/?user=RPGBOTDOTNET',
         href_title='https://twitter.com/RPGBOTDOTNET',
@@ -2460,6 +2470,438 @@ feeds = (
         title='rashedjrs',
         href='https://rashedjrs.artstation.com/rss',
         href_title='https://rashedjrs.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='eddy_shinjuku',
+        href='https://eddy-shinjuku.artstation.com/rss',
+        href_title='https://eddy-shinjuku.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='xibxib',
+        href='https://xibxib.artstation.com/rss',
+        href_title='https://xibxib.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='felixortiz',
+        href='https://felixortiz.artstation.com/rss',
+        href_title='https://felixortiz.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='simkaye',
+        href='https://simkaye.artstation.com/rss',
+        href_title='https://simkaye.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='harmil',
+        href='https://harmil.artstation.com/rss',
+        href_title='https://harmil.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='tatiilange',
+        href='https://tatiilange.artstation.com/rss',
+        href_title='https://tatiilange.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='andrewsoman',
+        href='https://andrewsoman.artstation.com/rss',
+        href_title='https://andrewsoman.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='jpbalmet',
+        href='https://jpbalmet.artstation.com/rss',
+        href_title='https://jpbalmet.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='alinaart',
+        href='https://alinaart.artstation.com/rss',
+        href_title='https://alinaart.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='juliankok',
+        href='https://juliankok.artstation.com/rss',
+        href_title='https://juliankok.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='nikoboiko',
+        href='https://nikoboiko.artstation.com/rss',
+        href_title='https://nikoboiko.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='alexkineticflow',
+        href='https://alexkineticflow.artstation.com/rss',
+        href_title='https://alexkineticflow.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='jordyskateboardy',
+        href='https://jordyskateboardy.artstation.com/rss',
+        href_title='https://jordyskateboardy.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='danielpinalarts',
+        href='https://danielpinalarts.artstation.com/rss',
+        href_title='https://danielpinalarts.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='ssnymrik',
+        href='https://ssnymrik.artstation.com/rss',
+        href_title='https://ssnymrik.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='fiveonthe',
+        href='https://fiveonthe.artstation.com/rss',
+        href_title='https://fiveonthe.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='telthona',
+        href='https://telthona.artstation.com/rss',
+        href_title='https://telthona.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='liesetiawan',
+        href='https://liesetiawan.artstation.com/rss',
+        href_title='https://liesetiawan.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='kylekayhos',
+        href='https://kylekayhos.artstation.com/rss',
+        href_title='https://kylekayhos.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='glintastickevin',
+        href='https://glintastickevin.artstation.com/rss',
+        href_title='https://glintastickevin.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='graworks',
+        href='https://graworks.artstation.com/rss',
+        href_title='https://graworks.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='kano',
+        href='https://kano.artstation.com/rss',
+        href_title='https://kano.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='caiosantos',
+        href='https://caiosantos.artstation.com/rss',
+        href_title='https://caiosantos.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='aztodio',
+        href='https://aztodio.artstation.com/rss',
+        href_title='https://aztodio.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='erikopedojan',
+        href='https://erikopedojan.artstation.com/rss',
+        href_title='https://erikopedojan.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='minory',
+        href='https://minory.artstation.com/rss',
+        href_title='https://minory.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='nicksilva',
+        href='https://nicksilva.artstation.com/rss',
+        href_title='https://nicksilva.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='kudaman',
+        href='https://kudaman.artstation.com/rss',
+        href_title='https://kudaman.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='kano',
+        href='https://kano.artstation.com/rss',
+        href_title='https://kano.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='hugenfast',
+        href='https://hugenfast.artstation.com/rss',
+        href_title='https://hugenfast.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='robotpencil',
+        href='https://robotpencil.artstation.com/rss',
+        href_title='https://robotpencil.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='tooth',
+        href='https://tooth.artstation.com/rss',
+        href_title='https://tooth.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='humsara',
+        href='https://humsara.artstation.com/rss',
+        href_title='https://humsara.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='kylekayhos',
+        href='https://kylekayhos.artstation.com/rss',
+        href_title='https://kylekayhos.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='eldarm',
+        href='https://eldarm.artstation.com/rss',
+        href_title='https://eldarm.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='jsmarantz',
+        href='https://jsmarantz.artstation.com/rss',
+        href_title='https://jsmarantz.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='qichaowang',
+        href='https://qichaowang.artstation.com/rss',
+        href_title='https://qichaowang.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='liqian',
+        href='https://liqian.artstation.com/rss',
+        href_title='https://liqian.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='gavronus',
+        href='https://gavronus.artstation.com/rss',
+        href_title='https://gavronus.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='sayaart',
+        href='https://sayaart.artstation.com/rss',
+        href_title='https://sayaart.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='blik_47',
+        href='https://blik_47.artstation.com/rss',
+        href_title='https://blik_47.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='jeffchendesigns',
+        href='https://jeffchendesigns.artstation.com/rss',
+        href_title='https://jeffchendesigns.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='chaosringen',
+        href='https://chaosringen.artstation.com/rss',
+        href_title='https://chaosringen.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='mischeviouslittleelf',
+        href='https://mischeviouslittleelf.artstation.com/rss',
+        href_title='https://mischeviouslittleelf.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='calvinsimsart',
+        href='https://calvinsimsart.artstation.com/rss',
+        href_title='https://calvinsimsart.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='lina_phantom',
+        href='https://lina_phantom.artstation.com/rss',
+        href_title='https://lina_phantom.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='steamytomato',
+        href='https://steamytomato.artstation.com/rss',
+        href_title='https://steamytomato.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='samrisoval',
+        href='https://samrisoval.artstation.com/rss',
+        href_title='https://samrisoval.artstation.com/projects',
+        emojis='💎'
+    ),                    
+    feed(
+        title='seventeenth',
+        href='https://seventeenth.artstation.com/rss',
+        href_title='https://seventeenth.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='blondynkitezgraja',
+        href='https://blondynkitezgraja.artstation.com/rss',
+        href_title='https://blondynkitezgraja.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='nikitacherkasov',
+        href='https://nikitacherkasov.artstation.com/rss',
+        href_title='https://nikitacherkasov.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='mariabenedettaliazza',
+        href='https://mariabenedettaliazza.artstation.com/rss',
+        href_title='https://mariabenedettaliazza.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='kerts',
+        href='https://kerts.artstation.com/rss',
+        href_title='https://kerts.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='weisart',
+        href='https://weisart.artstation.com/rss',
+        href_title='https://weisart.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='phenky',
+        href='https://phenky.artstation.com/rss',
+        href_title='https://phenky.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='sozomaika',
+        href='https://sozomaika.artstation.com/rss',
+        href_title='https://sozomaika.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='mjoker',
+        href='https://mjoker.artstation.com/rss',
+        href_title='https://mjoker.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='karamissa',
+        href='https://karamissa.artstation.com/rss',
+        href_title='https://karamissa.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='niconix',
+        href='https://niconix.artstation.com/rss',
+        href_title='https://niconix.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='bayardwu',
+        href='https://bayardwu.artstation.com/rss',
+        href_title='https://bayardwu.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='depingo',
+        href='https://depingo.artstation.com/rss',
+        href_title='https://depingo.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='akreon',
+        href='https://akreon.artstation.com/rss',
+        href_title='https://akreon.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='kylekayhos',
+        href='https://kylekayhos.artstation.com/rss',
+        href_title='https://kylekayhos.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='godfreyescota',
+        href='https://godfreyescota.artstation.com/rss',
+        href_title='https://godfreyescota.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='maichancreation',
+        href='https://maichancreation.artstation.com/rss',
+        href_title='https://maichancreation.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='aimeelynette',
+        href='https://aimeelynette.artstation.com/rss',
+        href_title='https://aimeelynette.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='stevezheng',
+        href='https://stevezheng.artstation.com/rss',
+        href_title='https://stevezheng.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='numioh',
+        href='https://numioh.artstation.com/rss',
+        href_title='https://numioh.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='dai_moc',
+        href='https://dai-moc.artstation.com/rss',
+        href_title='https://dai-moc.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='nony',
+        href='https://nony.artstation.com/rss',
+        href_title='https://nony.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='ming',
+        href='https://ming.artstation.com/rss',
+        href_title='https://ming.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='naranbaatars',
+        href='https://naranbaatars.artstation.com/rss',
+        href_title='https://naranbaatars.artstation.com/projects',
         emojis='💎'
     ),
     feed(
@@ -4067,6 +4509,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='brenzan',
+        href='https://www.deviantart.com/brenzan/gallery/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='danielkendi',
         href='https://www.deviantart.com/danielkendi/gallery/',
         emojis='💎🏮',
@@ -4726,6 +5173,11 @@ feeds = (
         emojis='💎',
     ),
     feed(
+        title='komitwins',
+        href='https://www.instagram.com/komitwins/',
+        emojis='💎',
+    ),
+    feed(
         title='kir__ch',
         href='https://www.instagram.com/kir_.ch/',
         emojis='🏮',
@@ -4734,6 +5186,11 @@ feeds = (
         title='rinnieriotcosplay',
         href='https://www.instagram.com/rinnieriotcosplay/',
         emojis='🏮',
+    ),
+    feed(
+        title='haylienoire',
+        href='https://www.instagram.com/haylienoire/',
+        emojis='💎🏮',
     ),
     feed(
         title='rosetwitch',
@@ -4781,6 +5238,36 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='taniarem_',
+        href='https://www.instagram.com/taniarem_/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='exoticpoledance',
+        href='https://www.instagram.com/exoticpoledance/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='polefree',
+        href='https://www.instagram.com/polefree/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='alice_delish',
+        href='https://www.instagram.com/alice_delish/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='ahegotyan',
+        href='https://www.instagram.com/ahegotyan/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='ilja_med',
+        href='https://www.instagram.com/ilja_med/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='rrredkina',
         href='https://www.instagram.com/rrredkina/',
         emojis='💎🏮',
@@ -4821,7 +5308,7 @@ feeds = (
         emojis='💎',
     ),
     feed(
-        title='khopper.dice',
+        title='khopper_dice',
         href='https://www.instagram.com/khopper.dice/',
         emojis='💎',
     ),
@@ -4879,6 +5366,11 @@ feeds = (
         title='neku_on_a_leash',
         href='https://www.instagram.com/neku.on.a.leash/',
         emojis='🏮',
+    ),
+    feed(
+        title='helixel',
+        href='https://www.instagram.com/helixel/',
+        emojis='💎🏮',
     ),
     feed(
         title='helixel',
@@ -5884,7 +6376,7 @@ feeds = (
         emojis='🏮',
     ),
     feed(
-        title='pink.bonobo',
+        title='pink_bonobo',
         href='https://www.instagram.com/pink.bonobo/',
         emojis='🏮',
     ),
@@ -6217,6 +6709,11 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='irisinlatex',
+        href='https://www.instagram.com/irisinlatex/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='s_g_g_p',
         href='https://www.instagram.com/s_g_g_p/',
         emojis='🏮',
@@ -6472,6 +6969,21 @@ feeds = (
     feed(
         title='ctsu_risa',
         href='https://www.instagram.com/ctsu_risa/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='di_rubens',
+        href='https://www.instagram.com/di.rubens/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='ka_chernyavskaya',
+        href='https://www.instagram.com/ka.chernyavskaya/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='raarii_s',
+        href='https://www.instagram.com/raarii.s/',
         emojis='💎🏮',
     ),
     feed(
@@ -6750,6 +7262,16 @@ feeds = (
         emojis='🏮',
     ),
     feed(
+        title='insanityapproaches',
+        href='https://www.instagram.com/insanityapproaches/',
+        emojis='💎',
+    ),
+    feed(
+        title='muzcali',
+        href='https://www.instagram.com/muzcali/',
+        emojis='💎',
+    ),
+    feed(
         title='masher_xtr',
         href='https://www.instagram.com/masher_xtr/',
         emojis='💎🏮',
@@ -6897,7 +7419,7 @@ feeds = (
     feed(
         title='mylittlevronie',
         href='https://www.instagram.com/mylittlevronie/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='mylittlevronie20',
@@ -7191,7 +7713,7 @@ feeds = (
     feed(
         title='notaprodigy',
         href='https://www.instagram.com/notaprodigy/',
-        emojis='🏮',
+        emojis='💎🏮',
     ),
     feed(
         title='vampybitme',
@@ -7327,6 +7849,11 @@ feeds = (
         title='titsoutkickedout',
         href='https://www.instagram.com/titsoutkickedout/',
         emojis='🏮',
+    ),
+    feed(
+        title='maskarad_1plus1',
+        href='https://www.instagram.com/maskarad_1plus1/',
+        emojis='💎🏮',
     ),
     feed(
         title='celene_nox',
@@ -7846,7 +8373,7 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='smile.miso',
+        title='smile_miso',
         href='https://www.instagram.com/smile.miso/',
         emojis='💎🏮',
     ),
