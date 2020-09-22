@@ -666,7 +666,6 @@ feeds = (
         title='RVerin',
         title_full='Ruslan Verin — Велопутешествия',
         href='https://www.youtube.com/channel/UCNttYYf1q2RVWkc0Rhulmdw/videos',
-        emojis='💎'
     ),
     feed(
         title='StandUpClub',
@@ -2473,6 +2472,24 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='dawncarlos',
+        href='https://dawncarlos.artstation.com/rss',
+        href_title='https://dawncarlos.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='atomicspaghetti',
+        href='https://atomicspaghetti.artstation.com/rss',
+        href_title='https://atomicspaghetti.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='neorteron',
+        href='https://neorteron.artstation.com/rss',
+        href_title='https://neorteron.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
         title='eddy_shinjuku',
         href='https://eddy-shinjuku.artstation.com/rss',
         href_title='https://eddy-shinjuku.artstation.com/projects',
@@ -2581,12 +2598,6 @@ feeds = (
         emojis='💎'
     ),
     feed(
-        title='kylekayhos',
-        href='https://kylekayhos.artstation.com/rss',
-        href_title='https://kylekayhos.artstation.com/projects',
-        emojis='💎'
-    ),
-    feed(
         title='glintastickevin',
         href='https://glintastickevin.artstation.com/rss',
         href_title='https://glintastickevin.artstation.com/projects',
@@ -2596,12 +2607,6 @@ feeds = (
         title='graworks',
         href='https://graworks.artstation.com/rss',
         href_title='https://graworks.artstation.com/projects',
-        emojis='💎'
-    ),
-    feed(
-        title='kano',
-        href='https://kano.artstation.com/rss',
-        href_title='https://kano.artstation.com/projects',
         emojis='💎'
     ),
     feed(
@@ -2767,12 +2772,6 @@ feeds = (
         emojis='💎'
     ),
     feed(
-        title='blondynkitezgraja',
-        href='https://blondynkitezgraja.artstation.com/rss',
-        href_title='https://blondynkitezgraja.artstation.com/projects',
-        emojis='💎'
-    ),
-    feed(
         title='nikitacherkasov',
         href='https://nikitacherkasov.artstation.com/rss',
         href_title='https://nikitacherkasov.artstation.com/projects',
@@ -2845,12 +2844,6 @@ feeds = (
         emojis='💎'
     ),
     feed(
-        title='kylekayhos',
-        href='https://kylekayhos.artstation.com/rss',
-        href_title='https://kylekayhos.artstation.com/projects',
-        emojis='💎'
-    ),
-    feed(
         title='godfreyescota',
         href='https://godfreyescota.artstation.com/rss',
         href_title='https://godfreyescota.artstation.com/projects',
@@ -2908,12 +2901,6 @@ feeds = (
         title='ramonn90',
         href='https://ramonn90.artstation.com/rss',
         href_title='https://ramonn90.artstation.com/projects',
-        emojis='💎'
-    ),
-    feed(
-        title='mischeviouslittleelf',
-        href='https://mischeviouslittleelf.artstation.com/rss',
-        href_title='https://mischeviouslittleelf.artstation.com/projects',
         emojis='💎'
     ),
     feed(
@@ -4581,7 +4568,6 @@ feeds = (
     feed(
         title='chasingartwork',
         href='https://www.deviantart.com/chasingartwork/gallery/',
-        emojis='💎',
     ),
     feed(
         title='Hibren',
@@ -5366,11 +5352,6 @@ feeds = (
         title='neku_on_a_leash',
         href='https://www.instagram.com/neku.on.a.leash/',
         emojis='🏮',
-    ),
-    feed(
-        title='helixel',
-        href='https://www.instagram.com/helixel/',
-        emojis='💎🏮',
     ),
     feed(
         title='helixel',
@@ -8365,6 +8346,76 @@ feeds = (
     feed(
         title='junejungyoun',
         href='https://www.instagram.com/junejungyoun/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='hlzzd',
+        href='https://www.instagram.com/hlzzd/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='raspbeary',
+        href='https://www.instagram.com/raspbeary/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='mz09',
+        href='https://www.instagram.com/mz09/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='badmiaou',
+        href='https://www.instagram.com/badmiaou/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='haryarti',
+        href='https://www.instagram.com/haryarti/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='valeriobuonfantino',
+        href='https://www.instagram.com/valeriobuonfantino/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='loish',
+        href='https://www.instagram.com/loish/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='geolim',
+        href='https://www.instagram.com/geolim/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='siwoo',
+        href='https://www.instagram.com/siwoo/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='dashiana',
+        href='https://www.instagram.com/dashiana/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='brookskim',
+        href='https://www.instagram.com/brookskim/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='haco',
+        href='https://www.instagram.com/haco/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='romankupriianov',
+        href='https://www.instagram.com/romankupriianov/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='pocketchicken',
+        href='https://www.instagram.com/pocketchicken/',
         emojis='💎🏮',
     ),
     feed(
