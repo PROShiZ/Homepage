@@ -243,6 +243,12 @@ feeds = (
         title='SuperFun',
         title_full='Channel Super Fun',
         href='https://www.youtube.com/channel/UCBZiUUYeLfS5rIj4TQvgSvA/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='vas3kYT',
+        href='https://www.youtube.com/channel/UCT2OIXoOGF1z9xWXiY00nkQ/videos',
+        emojis='💎'
     ),
     feed(
         title='YouSuckAtCooking',
@@ -2254,6 +2260,12 @@ feeds = (
         title='RobustaArt',
         href='https://twitrss.me/twitter_user_to_rss/?user=RobustaArt',
         href_title='https://twitter.com/RobustaArt',
+        emojis='💎'
+    ),
+    feed(
+        title='TeamTrove',
+        href='https://twitrss.me/twitter_user_to_rss/?user=TeamTrove',
+        href_title='https://twitter.com/TeamTrove',
         emojis='💎'
     ),
     feed(
@@ -8414,7 +8426,7 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
-        title='pocketchicken',
+        title='pocketchickenInst',
         href='https://www.instagram.com/pocketchicken/',
         emojis='💎🏮',
     ),
