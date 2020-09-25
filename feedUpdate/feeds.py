@@ -246,11 +246,6 @@ feeds = (
         emojis='💎'
     ),
     feed(
-        title='vas3kYT',
-        href='https://www.youtube.com/channel/UCT2OIXoOGF1z9xWXiY00nkQ/videos',
-        emojis='💎'
-    ),
-    feed(
         title='YouSuckAtCooking',
         href='https://www.youtube.com/channel/UCekQr9znsk2vWxBo3YiLq2w/videos',
     ),
@@ -1265,6 +1260,11 @@ feeds = (
     feed(
         title='vas3kYT',
         href='https://www.youtube.com/channel/UCRsZayHGP40NJK7ZPh6Q8ng/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='vas3kКлубYT',
+        href='https://www.youtube.com/channel/UCT2OIXoOGF1z9xWXiY00nkQ/videos',
         emojis='💎'
     ),
     feed(
