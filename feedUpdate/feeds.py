@@ -306,6 +306,11 @@ feeds = (
         emojis='🏮'
     ),
     feed(
+        title='BISacademy',
+        href='https://www.youtube.com/channel/UCKDVe79kecAc9i8cdd43fzA/videos',
+        emojis='💎🏮'
+    ),
+    feed(
         title='ВечернийУргант',
         href='https://www.youtube.com/channel/UCzlzGhKI5Y1LIeDJI53cWjQ/videos',
         filter='выпуск',
@@ -671,6 +676,11 @@ feeds = (
     feed(
         title='StandUpClub',
         href='https://www.youtube.com/channel/UC3cJiUuZlpF-pkzqvSskTpg/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='StandUpClubТретийКанал',
+        href='https://www.youtube.com/channel/UCpSy1NCx3GwegbytjPm7RoQ/videos',
         emojis='💎'
     ),
     feed(
@@ -2523,6 +2533,12 @@ feeds = (
         title='simkaye',
         href='https://simkaye.artstation.com/rss',
         href_title='https://simkaye.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='davidmaluf',
+        href='https://davidmaluf.artstation.com/rss',
+        href_title='https://davidmaluf.artstation.com/projects',
         emojis='💎'
     ),
     feed(
@@ -7335,6 +7351,71 @@ feeds = (
         emojis='💎🏮',
     ),
     feed(
+        title='bis_academy_kharkov',
+        href='https://www.instagram.com/bis_academy_kharkov/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='twins__d_a',
+        href='https://www.instagram.com/twins__d.a/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='tightlaced_amber',
+        href='https://www.instagram.com/tightlaced.amber/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='bulltosh_art',
+        href='https://www.instagram.com/bulltosh_art/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='rina_mir_na',
+        href='https://www.instagram.com/rina.mir.na/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='naturalredheadtiger',
+        href='https://www.instagram.com/naturalredheadtiger/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='corsetti_bless',
+        href='https://www.instagram.com/corsetti_bless/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='thebrandirhodes',
+        href='https://www.instagram.com/thebrandirhodes/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='annelise_eastes',
+        href='https://www.instagram.com/annelise_eastes/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='carmenmedinab',
+        href='https://www.instagram.com/carmenmedinab/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='lozandersen',
+        href='https://www.instagram.com/lozandersen/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='m_kyan129',
+        href='https://www.instagram.com/m_kyan129/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='angelaaerial',
+        href='https://www.instagram.com/angelaaerial/',
+        emojis='💎🏮',
+    ),
+    feed(
         title='khn_bast',
         href='https://www.instagram.com/khn_bast/',
         emojis='💎🏮',
@@ -8154,6 +8235,21 @@ feeds = (
         title='ОляПерелётова2',
         title_full='germina_shto_eto (Оля Перелётова)',
         href='https://www.instagram.com/germina_shto_eto/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='amletik_v_hlebchike',
+        href='https://www.instagram.com/amletik_v_hlebchike/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='direkt_or_eo',
+        href='https://www.instagram.com/direkt_or_eo/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='hoodoo____',
+        href='https://www.instagram.com/hoodoo.___/',
         emojis='💎🏮',
     ),
     feed(
