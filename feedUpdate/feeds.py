@@ -36,6 +36,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='ВампирскаяСистема',
+        href='http://xn--80ac9aeh6f.xn--p1ai/moya-vampirskaya-sistema/',
+        emojis='💎'
+    ),
+    feed(
         title='RenegadeImmortal',
         title_full='Renegade Immortal',
         href='https://www.wuxiaworld.com/feed/chapters/renegade-immortal',
