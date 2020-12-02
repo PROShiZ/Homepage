@@ -2,6 +2,7 @@ import json
 import requests
 import urllib.request, feedparser  # for rss only
 import ssl
+import urllib
 from datetime import datetime, timedelta
 from dateutil.tz import gettz  # adding custom timezones
 from dateutil import parser
@@ -228,7 +229,11 @@ class feed(models.Model):
         else:
             proxyDict = urllib.request.ProxyHandler(proxyDict)
 
-            request = feedparser.parse(self.href, request_headers=headers, handlers=[proxyDict])
+            try:
+                request = feedparser.parse(self.href, request_headers=headers, handlers=[proxyDict])
+            except urllib.error.URLError:
+                ssl._create_default_https_context = ssl._create_unverified_context
+                request = feedparser.parse(self.href, request_headers=headers, handlers=[proxyDict])
 
             for each in request["items"]:
                 result_href = each["links"][0]["href"]
