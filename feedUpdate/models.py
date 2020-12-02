@@ -105,10 +105,10 @@ class feed(models.Model):
 
                 for each in request.find_all('script'):
                     data = 'window._sharedData = '
-                    if each.text.find(data) != -1:
+                    if str(each).find(data) != -1:
                         # preparing JSON
-                        data = each.text.find(data) + len(data)  # data start position
-                        data = each.text[data:-1]  # -1 is for removing ; in the end
+                        data = str(each).find(data) + len(data)  # data start position
+                        data = str(each)[data:-10]  # -1 is for removing ; in the end
                         data = json.loads(data)
 
                         # selecting data from JSON
