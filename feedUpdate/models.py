@@ -129,7 +129,7 @@ class feed(models.Model):
                                 href="http://instragram.com/p/"+each['node']['shortcode'],
                                 datetime=datetime.fromtimestamp(each['node']['taken_at_timestamp']),
                                 title=self.title))
-            except (KeyError, requests.exceptions.ProxyError, requests.exceptions.SSLError) as err:
+            except (KeyError, requests.exceptions.ProxyError, requests.exceptions.SSLError):
                 return []
 
         # custom RSS YouTube converter (link to feed has to be converted manually)
