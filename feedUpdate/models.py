@@ -98,7 +98,7 @@ class feed(models.Model):
                         title=self.title))
 
         # custom instagram import
-        if self.href.find('https://www.instagram.com/') != -1:
+        elif self.href.find('https://www.instagram.com/') != -1:
             if not randint(0, 1000) == 0:
                 return []
             try:
