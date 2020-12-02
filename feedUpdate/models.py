@@ -231,16 +231,7 @@ class feed(models.Model):
             request = feedparser.parse(self.href, request_headers=headers, handlers=[proxyDict])
 
             for each in request["items"]:
-                # HREF RESULT
-                if self.title == "Expresso":
-                    result_href = each["summary"]
-
-                    start = result_href.find('https://expres.co/')
-                    end = result_href.find('"')
-
-                    result_href = result_href[start:end]
-                else:
-                    result_href = each["links"][0]["href"]
+                result_href = each["links"][0]["href"]
 
                 # DATE RESULT: parsing dates
                 if "published" in each:
