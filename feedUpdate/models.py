@@ -1,6 +1,7 @@
 import json
 import requests
 import urllib.request, feedparser  # for rss only
+import ssl
 from datetime import datetime, timedelta
 from dateutil.tz import gettz  # adding custom timezones
 from dateutil import parser
@@ -179,7 +180,10 @@ class feed(models.Model):
             # try:
             strainer = SoupStrainer('div', attrs={'class': 'stories-feed__container'})
 
-            request = requests.get(self.href, headers=headers, proxies=proxyDict)
+            try:
+                request = requests.get(self.href, headers=headers, proxies=proxyDict)
+            except requests.exceptions.SSLError:
+                return []
             request = BeautifulSoup(request.text, "html.parser", parse_only=strainer)
 
             for each in request.find_all('article'):
