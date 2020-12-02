@@ -133,6 +133,29 @@ class feed(models.Model):
             except (KeyError, requests.exceptions.ProxyError, requests.exceptions.SSLError):
                 return []
 
+        # custom tiktok import
+        elif 'https://www.tiktok.com/@' in self.href:
+            request = requests.get(self.href, headers=headers, proxies=proxyDict)
+            request = BeautifulSoup(request.text, "html.parser")
+
+            data = str(request.find('script', attrs={'id': '__NEXT_DATA__'}))
+            data_start = data.find('>') + 1
+            data_end = data.find('</script>')
+
+            data = data[data_start:data_end]
+            data = json.loads(data)
+            
+            for each in data['props']['pageProps']['items']:
+                # if each['isAd']:
+                #     continue
+
+                result.insert(0, feedUpdate(
+                    name=each['desc'],
+                    href=f"{ self.href }/video/{ each['id'] }",
+                    # href=each['video']['playAddr'],
+                    datetime=datetime.fromtimestamp(each['createTime']),
+                    title=self.title))
+
         # custom RSS YouTube converter (link to feed has to be converted manually)
         elif self.href.find('https://www.youtube.com/channel/') != -1:
             self.href_title = self.href[:]
