@@ -123,7 +123,7 @@ class feed(models.Model):
                             except IndexError:
                                 result_name = 'no title'
 
-                            result.append(feedUpdate(
+                            result.insert(0, feedUpdate(
                                 name=result_name,
                                 href="http://instragram.com/p/"+each['node']['shortcode'],
                                 datetime=datetime.fromtimestamp(each['node']['taken_at_timestamp']),
