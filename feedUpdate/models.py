@@ -84,7 +84,7 @@ class feed(models.Model):
             proxyDict = {}
 
         # custom ранобэ.рф API import
-        if self.href.find('http://xn--80ac9aeh6f.xn--p1ai/') != -1:
+        if 'http://xn--80ac9aeh6f.xn--p1ai/' in self.href:
             request = f"https://xn--80ac9aeh6f.xn--p1ai/api/v2/books/{ self.href[31:-1] }/chapters"
             request = requests.get(request).json()  # (request, headers=headers, proxies=proxyDict)
 
@@ -98,7 +98,7 @@ class feed(models.Model):
                         title=self.title))
 
         # custom instagram import
-        elif self.href.find('https://www.instagram.com/') != -1:
+        elif 'https://www.instagram.com/' in self.href:
             if not randint(0, 1000) == 0:
                 return []
             try:
@@ -157,7 +157,7 @@ class feed(models.Model):
                     title=self.title))
 
         # custom RSS YouTube converter (link to feed has to be converted manually)
-        elif self.href.find('https://www.youtube.com/channel/') != -1:
+        elif 'https://www.youtube.com/channel/' in self.href:
             self.href_title = self.href[:]
             # 32 = len('https://www.youtube.com/channel/')
             # 7 = len('/videos')
@@ -165,19 +165,19 @@ class feed(models.Model):
             result = feed.parse(self)
 
         # custom RSS readmanga converter (link to feed has to be converted manually to simplify feed object creation)
-        elif self.href.find('http://readmanga.me/') != -1 and self.href.find('readmanga.me/rss/manga') == -1 and self.href_title == None:
+        elif 'http://readmanga.me/' in self.href and self.href.find('readmanga.me/rss/manga') == -1 and self.href_title == None:
             # 20 = len('http://readmanga.me/')
             self.href = "feed://readmanga.me/rss/manga?name=" + self.href[20:]
             result = feed.parse(self)
 
         # custom RSS mintmanga converter (link to feed has to be converted manually to simplify feed object creation)
-        elif self.href.find('http://mintmanga.com/') != -1 and self.href.find('mintmanga.com/rss/manga') == -1 and self.href_title == None:
+        elif 'http://mintmanga.com/' in self.href and self.href.find('mintmanga.com/rss/manga') == -1 and self.href_title == None:
             # 21 = len('http://mintmanga.com/')
             self.href = "feed://mintmanga.com/rss/manga?name=" + self.href[21:]
             result = feed.parse(self)
 
         # custom RSS deviantart converter (link to feed has to be converted manually to simplify feed object creation)
-        elif self.href.find('https://www.deviantart.com/') != -1:
+        elif 'https://www.deviantart.com/' in self.href:
             self.href_title = self.href[:]
             # 27 = len('https://www.deviantart.com/')
             # 9 = len('/gallery/')
@@ -186,7 +186,7 @@ class feed(models.Model):
             result = feed.parse(self)
 
         # custom fantasy-worlds.org loader
-        elif self.href.find('https://fantasy-worlds.org/series/') != -1:
+        elif 'https://fantasy-worlds.org/series/' in self.href:
             strainer = SoupStrainer('div', attrs={'class': 'rightBlock'})
 
             request = requests.get(self.href, headers=headers, proxies=proxyDict)
@@ -200,7 +200,7 @@ class feed(models.Model):
                     title=self.title))
 
         # custom pikabu import
-        elif self.href.find('pikabu.ru/@') != -1:
+        elif 'pikabu.ru/@' in self.href:
             # try:
             strainer = SoupStrainer('div', attrs={'class': 'stories-feed__container'})
 
