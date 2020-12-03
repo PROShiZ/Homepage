@@ -169,6 +169,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='Cyberpunk2077',
+        href='https://www.youtube.com/channel/UC4zyoIAzmdsgpDZQfO1-lSA/videos',
+        emojis='💎'
+    ),
+    feed(
         title='KeddrYT',
         title_full='Keddr.com (YouTube)',
         href='https://www.youtube.com/channel/UCSpU8Y1aoqBSAwh8DBpiM9A/videos',
@@ -242,7 +247,6 @@ feeds = (
     feed(
         title='Techquickie',
         href='https://www.youtube.com/channel/UC0vBXGSyV14uvJ4hECDOl0Q/videos',
-        emojis='💎'
     ),
     feed(
         title='SuperFun',
@@ -671,7 +675,6 @@ feeds = (
     feed(
         title='sergeymeza',
         href='https://www.youtube.com/channel/UCzHv0zdqzKR0Ypie2eSZVLA/videos',
-        emojis='💎'
     ),
     feed(
         title='RVerin',
@@ -701,7 +704,6 @@ feeds = (
     feed(
         title='IKEA',
         href='https://www.youtube.com/channel/UCea45juw3lHS65aRSC4bdCw/videos',
-        emojis='💎'
     ),
     feed(
         title='SethHacks',
@@ -888,6 +890,11 @@ feeds = (
         filter='M/V'
     ),
     feed(
+        title='Yaorenmao',
+        href='https://www.youtube.com/channel/UCCvt0Jc0ghFegppbyRdMPTg/videos',
+        emojis='💎',
+    ),
+    feed(
         title='jypentertainment_kpop',
         href='https://www.youtube.com/channel/UCaO6TYtlC8U5ttz62hTrZgg/videos',
         emojis='💎',
@@ -980,6 +987,11 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='RiotForge',
+        href='https://www.youtube.com/channel/UCZjaLeJ_Q8aJ66D-mFVxPdw/videos',
+        emojis='💎'
+    ),
+    feed(
         title='ValorantRU',
         title_full='VALORANT - Russia',
         href='https://www.youtube.com/channel/UCoGag6ikkv8HRpZrhYL3OqQ/videos',
@@ -1020,9 +1032,12 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='РенТВ',
+        href='https://www.youtube.com/channel/UCfS9S3OjUId0OsE2bsY5wXg/videos',
+    ),
+    feed(
         title='CoreyTaylor',
         href='https://www.youtube.com/channel/UCLQ1zmTPoqXZ6Vk0LVtQvkg/videos',
-        emojis='💎'
     ),
     feed(
         title='auauauYT',
@@ -1158,6 +1173,11 @@ feeds = (
         emojis='🏮',
     ),
     feed(
+        title='Bronnica',
+        href='https://www.youtube.com/channel/UCi5VNaw3iJ2pRRK85AgQTIg/videos',
+        emojis='💎🏮',
+    ),
+    feed(
         title='Зеленский',
         href='https://www.youtube.com/channel/UCp2zBKrqP0ZQF6RN4RJtF2Q/videos',
     ),
@@ -1201,6 +1221,11 @@ feeds = (
     feed(
         title='DingoDoodles',
         href='https://www.youtube.com/channel/UCfPUcG3oCmXEYgdFuwlFh8w/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='BobWorldBuilder',
+        href='https://www.youtube.com/channel/UCC8AgO4FbP11n_WBdFai7DA/videos',
         emojis='💎'
     ),
     feed(
@@ -1339,6 +1364,11 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='BadooRUYT',
+        href='https://www.youtube.com/channel/UClcz_dH9iU5qreI9Lo7mOjw/videos',
+        emojis='💎🏮'
+    ),
+    feed(
         title='LittleBig',
         href='https://www.youtube.com/channel/UCu7TZ_ATWgjgD9IrNLdnYDA/videos',
         emojis='💎'
@@ -1366,54 +1396,8 @@ feeds = (
     feed(
         title='Anidub',
         title_full='Anidub Online',
-        href='https://anidub.me/rss.xml',
-        href_title='https://anidub.me',
-    ),
-    feed(
-        title='ЕдинственнаяКтоЛюбит',
-        title_full='Ты единственная, кто любит Великого Меня?!',
-        href='https://anidub.me/rss.xml',
-        href_title='https://anidub.me',
-        filter='ty-edinstvennaya-kto-lyubit-velikogo-menya',
-    ),
-    feed(
-        title='РассекающийДемонов',
-        title_full='Рассекающий демонов',
-        href='https://anidub.me/rss.xml',
-        href_title='https://anidub.me',
-        filter='rassekayuschiy-demonov',
-        emojis='💎'
-    ),
-    feed(
-        title='ПламеннаяБригада',
-        title_full='Пламенная бригада пожарных',
-        href='https://anidub.me/rss.xml',
-        href_title='https://anidub.me',
-        filter='plamennaya-brigada-pozharnyh',
-        emojis='💎'
-    ),
-    feed(
-        title='ГенииПопаданцы',
-        title_full='Для гениев не проблема выжить даже в ином мире',
-        href='https://anidub.me/rss.xml',
-        href_title='https://anidub.me',
-        filter='dlya-geniev-ne-problema-vyzhit-dazhe-v-inom-mire',
-        emojis='💎'
-    ),
-    feed(
-        title='ОсторожныйГерой',
-        title_full='Этот герой неуязвим, но очень осторожен',
-        href='https://anidub.me/rss.xml',
-        href_title='https://anidub.me',
-        filter='etot-geroy-neuyazvim-no-ochen-ostorozhen',
-    ),
-    feed(
-        title='KotB',
-        title_full='The King of the Battlefield',
-        href='https://myoniyonitranslations.com/feed/',
-        href_title='https://myoniyonitranslations.com/the-king-of-the-battlefield/',
-        filter='kotb',
-        emojis='💎'
+        href='https://anime.anidub.life//rss.xml',
+        href_title='https://anime.anidub.life',
     ),
     feed(
         title='AnimeVost',
@@ -1474,11 +1458,6 @@ feeds = (
         emojis='🏮💎'
     ),
     feed(
-        title='inmyroom',
-        href='feed:https://www.inmyroom.ru/?format=atom',
-        href_title='https://www.inmyroom.ru',
-    ),
-    feed(
         title='DnD',
         title_full='WotC: Dungeon and Dragons',
         href='feed:https://dnd.wizards.com/rss.xml',
@@ -1502,12 +1481,6 @@ feeds = (
         href='http://feeds.feedburner.com/Explosm',
         href_title='http://explosm.net',
         emojis='💎'
-    ),
-    feed(
-        title='KaterinaPigletWeb',
-        href='feed://katerinapiglet.com/feed/',
-        href_title='http://katerinapiglet.com/gallery/',
-        emojis='🏮'
     ),
     feed(
         title='RaspberryPiWeb',
@@ -1644,6 +1617,11 @@ feeds = (
         title='ГеройКопья',
         title_full='Перерождение героя копья (остановился на 5-18)',
         href='http://readmanga.me/redo_of_the_spear_hero',
+    ),
+    feed(
+        title='Рейд',
+        href='http://readmanga.me/reid',
+        emojis='💎'
     ),
     feed(
         title='ZoneTan',
@@ -2163,12 +2141,6 @@ feeds = (
         href_title='https://antonz.ru',
     ),
     feed(
-        title='Expresso',
-        href='https://telegram2rss.akin.su/api/channel/feed/expressotoday/9FE04EFAC787',
-        href_title='https://t.me/expressotoday',
-        emojis='💎',
-    ),
-    feed(
         title='JannetWeb',
         title_full='Jannet Incosplay Website',
         href='https://jannetincosplay.com/recent.rss',
@@ -2218,18 +2190,6 @@ feeds = (
         emojis='💎',
     ),
     feed(
-        title='DOUevents',
-        href='https://dou.ua/calendar/feed/все%20темы/Харьков',
-        href_title='https://dou.ua/calendar/city/Харьков/',
-        emojis='💎',
-    ),
-    feed(
-        title='DOUcareer',
-        href='https://dou.ua/lenta/tags/Карьера%20в%20IT/feed/',
-        href_title='https://dou.ua/lenta/tags/Карьера%20в%20IT/?from=doufp',
-        emojis='💎',
-    ),
-    feed(
         title='InstadeqBlog',
         href='feed:https://instadeq.com/blog/rss.xml',
         href_title='https://instadeq.com/blog/',
@@ -2239,7 +2199,6 @@ feeds = (
         title='Habr',
         href='https://habr.com/ru/rss/best/daily/?fl=ru',
         href_title='https://habr.com/ru/top/',
-        emojis='💎',
     ),
     feed(
         title='AnnoyingTechnology',
@@ -2272,9 +2231,21 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='aliceoncam',
+        href='https://twitrss.me/twitter_user_to_rss/?user=aliceoncam',
+        href_title='https://twitter.com/aliceoncam',
+        emojis='💎'
+    ),
+    feed(
         title='RobustaArt',
         href='https://twitrss.me/twitter_user_to_rss/?user=RobustaArt',
         href_title='https://twitter.com/RobustaArt',
+        emojis='💎'
+    ),
+    feed(
+        title='danialrashidi',
+        href='https://twitrss.me/twitter_user_to_rss/?user=danialrashidi',
+        href_title='https://twitter.com/danialrashidi',
         emojis='💎'
     ),
     feed(
@@ -2499,6 +2470,30 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='juuliew',
+        href='https://juuliew.artstation.com/rss',
+        href_title='https://juuliew.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='chowartstation',
+        href='https://chowartstation.artstation.com/rss',
+        href_title='https://chowartstation.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='nopeysDA',
+        href='https://nopeys.artstation.com/rss',
+        href_title='https://nopeys.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='chunlo',
+        href='https://chunlo.artstation.com/rss',
+        href_title='https://chunlo.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
         title='dawncarlos',
         href='https://dawncarlos.artstation.com/rss',
         href_title='https://dawncarlos.artstation.com/projects',
@@ -2712,7 +2707,6 @@ feeds = (
         title='kylekayhos',
         href='https://kylekayhos.artstation.com/rss',
         href_title='https://kylekayhos.artstation.com/projects',
-        emojis='💎'
     ),
     feed(
         title='eldarm',
@@ -2802,7 +2796,6 @@ feeds = (
         title='seventeenth',
         href='https://seventeenth.artstation.com/rss',
         href_title='https://seventeenth.artstation.com/projects',
-        emojis='💎'
     ),
     feed(
         title='nikitacherkasov',
@@ -2928,7 +2921,6 @@ feeds = (
         title='naranbaatars',
         href='https://naranbaatars.artstation.com/rss',
         href_title='https://naranbaatars.artstation.com/projects',
-        emojis='💎'
     ),
     feed(
         title='ramonn90',
@@ -3032,6 +3024,18 @@ feeds = (
         href_title='https://tomercs.artstation.com/projects',
         emojis='💎🏮'
     ),
+        emojis='💎'
+    ),
+    feed(
+        title='cuddlyveedles',
+        href='https://cuddlyveedles.artstation.com/rss',
+        href_title='https://cuddlyveedles.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='umitaro',
+        href='https://umitaro.artstation.com/rss',
+        href_title='https://umitaro.artstation.com/projects',
     feed(
         title='tec',
         href='https://tec.artstation.com/rss',
@@ -5186,10 +5190,10 @@ feeds = (
         title='diia_gov_ua',
         href='https://www.instagram.com/diia.gov.ua/',
     ),
+    ),
     feed(
         title='shencomix',
         href='https://www.instagram.com/shencomix/',
-        emojis='💎',
     ),
     feed(
         title='komitwins',
@@ -5256,6 +5260,11 @@ feeds = (
         href='https://www.instagram.com/vika_poledance/',
         emojis='💎🏮',
     ),
+    ),
+    feed(
+        title='nataly_serkova',
+        href='https://www.instagram.com/nataly_serkova/',
+        emojis='💎🏮xxx',
     feed(
         title='taniarem_',
         href='https://www.instagram.com/taniarem_/',
@@ -5375,6 +5384,8 @@ feeds = (
         title='ariana',
         href='https://www.instagram.com/ariana/',
         emojis='💎🏮',
+        title='joselyncano',
+        href='https://www.instagram.com/joselyncano/',
     ),
     feed(
         title='lydia3662',
@@ -5481,10 +5492,10 @@ feeds = (
         href='https://www.instagram.com/ladalyumos/',
         emojis='🏮',
     ),
+    ),
     feed(
         title='threnodyinvelvet',
         href='https://www.instagram.com/threnodyinvelvet/',
-        emojis='💎🏮',
     ),
     feed(
         title='miam_eberhardt',
@@ -6066,10 +6077,10 @@ feeds = (
         href='https://www.instagram.com/icy_cosplayer/',
         emojis='💎🏮',
     ),
+    ),
     feed(
         title='roga_na_noge',
         href='https://www.instagram.com/roga_na_noge/',
-        emojis='💎🏮',
     ),
     feed(
         title='umi1021670093',
@@ -6153,6 +6164,7 @@ feeds = (
         title='fetishdeluxe',
         href='https://www.instagram.com/fetishdeluxe/',
         emojis='🏮',
+    ),
     ),
     feed(
         title='reserved',
@@ -6489,6 +6501,112 @@ feeds = (
         href='https://www.instagram.com/slowswan/',
         emojis='🏮',
     ),
+    ),
+    feed(
+        title='anastasia_solodkaya',
+        href='https://www.instagram.com/anastasia_solodkaya/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='your_sunny_flowers',
+        href='https://www.instagram.com/your_sunny_flowers/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='silkgarbage',
+        href='https://www.instagram.com/silkgarbage/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='itsnicolina',
+        href='https://www.instagram.com/itsnicolina/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='luckashyowa',
+        href='https://www.instagram.com/luckashyowa/',
+        emojis='💎🏮x',
+    ),
+    feed(
+        title='rachelfrancesx',
+        href='https://www.instagram.com/rachelfrancesx/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='zhukouskaya_nastassia',
+        href='https://www.instagram.com/zhukouskaya.nastassia/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='oz_nurunuz',
+        href='https://www.instagram.com/oz_nurunuz/',
+        emojis='💎🏮x',
+    ),
+    feed(
+        title='peach_jars',
+        href='https://www.instagram.com/peach_jars/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='_sbrick',
+        href='https://www.instagram.com/_sbrick/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='_sasha_iv',
+        href='https://www.instagram.com/_sasha_iv/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='makeeva69_',
+        href='https://www.instagram.com/makeeva69_/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='kristvorpole',
+        href='https://www.instagram.com/kristvorpole/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='latexvin',
+        href='https://www.instagram.com/latexvin/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='tanygri',
+        href='https://www.instagram.com/tanygri/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='annatwinon',
+        href='https://www.instagram.com/annatwinon/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='echoo210',
+        href='https://www.instagram.com/echoo210/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='flomoneyyy',
+        href='https://www.instagram.com/flomoneyyy/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='yurio5462',
+        href='https://www.instagram.com/yurio5462/',
+        emojis='💎🏮x',
+    ),
+    feed(
+        title='barbie_polerina',
+        href='https://www.instagram.com/barbie.polerina/',
+        emojis='💎🏮',
+    ),
+    feed(
+        title='k_kislitsina',
+        href='https://www.instagram.com/k.kislitsina/',
+        emojis='💎🏮x',
+    ),
     feed(
         title='alekay_salakruthai',
         href='https://www.instagram.com/alekay_salakruthai/',
@@ -6811,10 +6929,10 @@ feeds = (
         href='https://www.instagram.com/navinigri/',
         emojis='🏮',
     ),
+    ),
     feed(
         title='likeassassin',
         href='https://www.instagram.com/likeassassin/',
-        emojis='💎🏮',
     ),
     feed(
         title='cheshire_fox',
@@ -6970,10 +7088,10 @@ feeds = (
         href='https://www.instagram.com/lottelavey/',
         emojis='🏮',
     ),
+    ),
     feed(
         title='starfuckedmodel',
         href='https://www.instagram.com/starfuckedmodel/',
-        emojis='💎🏮',
     ),
     feed(
         title='starfuckedmodelbackup',
@@ -7532,6 +7650,12 @@ feeds = (
     feed(
         title='anela_kuzmina',
         href='https://www.instagram.com/anela.kuzmina/',
+        emojis='💎🏮',
+    ),
+    ),
+    feed(
+        title='lisa_shape',
+        href='https://www.instagram.com/lisa.shape/',
         emojis='💎🏮',
     ),
     feed(
@@ -8662,6 +8786,7 @@ feeds = (
         title='katerina_piglet_20',
         href='https://www.instagram.com/katerina_piglet_2.0/',
         emojis='💎🏮',
+    ),
     ),
     feed(
         title='luma_skye',
