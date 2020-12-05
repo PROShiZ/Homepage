@@ -16,32 +16,11 @@ class Command(BaseCommand):
         parser.add_argument('--writeLength', action='store_true')
 
     def handle(self, *args, **options):
-        request = requests.get('http://useragentstring.com/pages/useragentstring.php?name=All')
-        request = BeautifulSoup(request.text, "html.parser")
-        
-        UserAgent_path = join("static", "feedUpdate")
-        if options['backup']:
-            UserAgent_path = join(UserAgent_path, "user-agents.txt")
-        else:
-            UserAgent_path = join(UserAgent_path, "user-agents-backup.txt")
-        
-        remove(UserAgent_path)  # delete old file version
-        open(UserAgent_path, 'a').close()  # create empty file
-
-        UserAgent_list = []
-        for each in request.find_all('li'):
-            UserAgent_list.append(each.find('a').getText())
-
         if options['writeLength']:
-            lines = 0
-        with open(UserAgent_path, 'a') as UserAgent_file:
-            for each in UserAgent_list:
-                UserAgent_file.write(each+'\n')
+            with open(join("static", "feedUpdate", 'user-agents.txt')) as f:
+                lines = len(f.read().split('\n'))
+                # print(lines)
 
-                if options['writeLength']:
-                    lines += 1
-
-        if options['writeLength']:
             object_list = keyValue.objects.filter(key='UserAgentLen')
 
             if len(object_list) > 0:
@@ -54,3 +33,23 @@ class Command(BaseCommand):
             else:
                 UserAgentLen = keyValue(key='UserAgentLen', value=lines)
                 UserAgentLen.save()
+        else:
+            request = requests.get('http://useragentstring.com/pages/useragentstring.php?name=All')
+            request = BeautifulSoup(request.text, "html.parser")
+            
+            UserAgent_path = join("static", "feedUpdate")
+            if options['backup']:
+                UserAgent_path = join(UserAgent_path, "user-agents-backup.txt")
+            else:
+                UserAgent_path = join(UserAgent_path, "user-agents.txt")
+            
+            remove(UserAgent_path)  # delete old file version
+            open(UserAgent_path, 'a').close()  # create empty file
+
+            UserAgent_list = []
+            for each in request.find_all('li'):
+                UserAgent_list.append(each.find('a').getText())
+
+            with open(UserAgent_path, 'a') as UserAgent_file:
+                for each in UserAgent_list:
+                    UserAgent_file.write(each+'\n')
