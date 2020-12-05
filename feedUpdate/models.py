@@ -99,7 +99,7 @@ class feed(models.Model):
 
         # custom instagram import
         elif 'https://www.instagram.com/' in self.href:
-            if not randint(0, 1000) == 0:
+            if randint(0, 1000) > 0:
                 return []
             try:
                 request = requests.get(self.href, headers=headers, proxies=proxyDict)
