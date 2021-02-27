@@ -248,6 +248,14 @@ class feed(models.Model):
         #             datetime=datetime.now(),  # <=== fake date
         #             title=self.title))
 
+        # custom onlyfans import
+        elif 'https://onlyfans.com/' in self.href:
+            return []
+        
+        # custom patreon import
+        elif 'https://www.patreon.com/' in self.href:
+            return []
+
         # default RSS import
         else:
             proxyDict = urllib.request.ProxyHandler(proxyDict)
