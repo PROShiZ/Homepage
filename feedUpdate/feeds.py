@@ -992,6 +992,11 @@ feeds = (
         filter='M/V'
     ),
     feed(
+        title='Telepurte',
+        href='https://www.youtube.com/channel/UCkDtCKtPKlsg-gJO_m5D0mQ/videos',
+        emojis='💎🏮'
+    ),
+    feed(
         title='Mnet_kpop',
         href='https://www.youtube.com/channel/UCbD8EppRX3ZwJSou-TVo90A/videos',
         emojis='💎',
@@ -2425,8 +2430,7 @@ feeds = (
     ),
     feed(
         title='Vana_art',
-        href='https://twitrss.me/twitter_user_to_rss/?user=Vana_art',
-        href_title='https://twitter.com/Vana_art',
+        href='https://twitter.com/Vana_art',
         emojis='💎'
     ),
     feed(
@@ -3285,7 +3289,13 @@ feeds = (
         title='niconix',
         href='https://niconix.artstation.com/rss',
         href_title='https://niconix.artstation.com/projects',
-        emojis='💎'
+        emojis='🏮📮'
+    ),
+    feed(
+        title='jcpark',
+        href='https://jcpark.artstation.com/rss',
+        href_title='https://jcpark.artstation.com/projects',
+        emojis='📮'
     ),
     feed(
         title='bayardwu',
@@ -3351,18 +3361,12 @@ feeds = (
         title='ming',
         href='https://ming.artstation.com/rss',
         href_title='https://ming.artstation.com/projects',
-        emojis='💎'
+        emojis='🏮📮'
     ),
     feed(
         title='naranbaatars',
         href='https://naranbaatars.artstation.com/rss',
         href_title='https://naranbaatars.artstation.com/projects',
-    ),
-    feed(
-        title='ramonn90',
-        href='https://ramonn90.artstation.com/rss',
-        href_title='https://ramonn90.artstation.com/projects',
-        emojis='💎'
     ),
     feed(
         title='thomasbourdon',
@@ -3377,16 +3381,10 @@ feeds = (
         emojis='💎'
     ),
     feed(
-        title='s3ntry',
-        href='https://s3ntry.artstation.com/rss',
-        href_title='https://s3ntry.artstation.com/projects',
-        emojis='💎'
-    ),
-    feed(
         title='jobydorr',
         href='https://jobydorr.artstation.com/rss',
         href_title='https://jobydorr.artstation.com/projects',
-        emojis='💎'
+        emojis='📮'
     ),
     feed(
         title='damongreenhalgh',
@@ -3398,7 +3396,7 @@ feeds = (
         title='beeple',
         href='https://beeple.artstation.com/rss',
         href_title='https://beeple.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='mangamie',
@@ -3422,7 +3420,7 @@ feeds = (
         title='huniartist',
         href='https://huniartist.artstation.com/rss',
         href_title='https://huniartist.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='blondynkitezgraja',
@@ -3440,7 +3438,7 @@ feeds = (
         title='deryl',
         href='https://deryl.artstation.com/rss',
         href_title='https://deryl.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='armoredcolony',
@@ -3460,7 +3458,11 @@ feeds = (
         href_title='https://tomercs.artstation.com/projects',
         emojis='💎🏮'
     ),
-        emojis='💎'
+    feed(
+        title='darwh',
+        href='https://darwh.artstation.com/rss',
+        href_title='https://darwh.artstation.com/projects',
+        emojis='🏮📮'
     ),
     feed(
         title='cuddlyveedles',
@@ -3472,6 +3474,8 @@ feeds = (
         title='umitaro',
         href='https://umitaro.artstation.com/rss',
         href_title='https://umitaro.artstation.com/projects',
+        emojis='🏮'
+    ),
     feed(
         title='tec',
         href='https://tec.artstation.com/rss',
@@ -3488,7 +3492,7 @@ feeds = (
         title='matheusgraef',
         href='https://matheusgraef.artstation.com/rss',
         href_title='https://matheusgraef.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='skiorh',
@@ -3500,12 +3504,18 @@ feeds = (
         title='helgesonart',
         href='https://helgesonart.artstation.com/rss',
         href_title='https://helgesonart.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='damo_chen',
         href='https://damo_chen.artstation.com/rss',
         href_title='https://damo_chen.artstation.com/projects',
+        emojis='🏮📮'
+    ),
+    feed(
+        title='tayconti_',
+        href='https://tayconti_.artstation.com/rss',
+        href_title='https://tayconti_.artstation.com/projects',
         emojis='💎🏮'
     ),
     feed(
@@ -3536,7 +3546,7 @@ feeds = (
         title='guan_yu',
         href='https://guan-yu.artstation.com/rss',
         href_title='https://guan-yu.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='snatti',
@@ -3571,7 +3581,7 @@ feeds = (
         title='tonysart',
         href='https://tonysart.artstation.com/rss',
         href_title='https://tonysart.artstation.com/projects',
-        emojis='💎'
+        emojis='📮'
     ),
     feed(
         title='albyu',
@@ -3679,7 +3689,7 @@ feeds = (
         title='nicollazarus',
         href='https://nicollazarus.artstation.com/rss',
         href_title='https://nicollazarus.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='jonghwan',
@@ -3727,7 +3737,7 @@ feeds = (
         title='draken4o',
         href='https://draken4o.artstation.com/rss',
         href_title='https://draken4o.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='eleth',
@@ -3757,7 +3767,7 @@ feeds = (
         title='yingyixsu',
         href='https://yingyixsu.artstation.com/rss',
         href_title='https://yingyixsu.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='alexchow',
@@ -3810,7 +3820,7 @@ feeds = (
         title='whitekuroe',
         href='https://whitekuroe.artstation.com/rss',
         href_title='https://whitekuroe.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='heywonhwnag',
@@ -3846,7 +3856,6 @@ feeds = (
         title='jncarvajal',
         href='https://jncarvajal.artstation.com/rss',
         href_title='https://jncarvajal.artstation.com/projects',
-        emojis='💎'
     ),
     feed(
         title='kiikiibee',
