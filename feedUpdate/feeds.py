@@ -4017,7 +4017,7 @@ feeds = (
         title='ee2015_amg',
         href='https://ee2015_amg.artstation.com/rss',
         href_title='https://ee2015_amg.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='aristophis',
@@ -4029,7 +4029,7 @@ feeds = (
         title='joseborges',
         href='https://joseborges.artstation.com/rss',
         href_title='https://joseborges.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='richardwright',
@@ -4071,7 +4071,7 @@ feeds = (
         title='operion',
         href='https://operion.artstation.com/rss',
         href_title='https://operion.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='ayyasap',
@@ -4083,7 +4083,7 @@ feeds = (
         title='chalkynan',
         href='https://chalkynan.artstation.com/rss',
         href_title='https://chalkynan.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='forgingmeanings',
@@ -4137,6 +4137,12 @@ feeds = (
         title='Zeronis',
         href='https://www.artstation.com/zeronis-pk.rss',
         href_title='https://www.artstation.com/zeronis-pk',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='samyang',
+        href='https://www.artstation.com/samyang.rss',
+        href_title='https://www.artstation.com/samyang',
         emojis='💎🏮'
     ),
     feed(
@@ -4271,13 +4277,13 @@ feeds = (
         title='amruu',
         href='https://www.hentai-foundry.com/feed/userPictures/username/amruu',
         href_title='http://www.hentai-foundry.com/pictures/user/amruu',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='Grakata733',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Grakata733',
         href_title='http://www.hentai-foundry.com/pictures/user/Grakata733',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='Kupocun',
@@ -4391,7 +4397,7 @@ feeds = (
         title='LeraPi',
         href='https://www.hentai-foundry.com/feed/userPictures/username/LeraPI',
         href_title='http://www.hentai-foundry.com/pictures/user/LeraPI',
-        emojis='🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='DominikDrawHF',
@@ -4445,7 +4451,7 @@ feeds = (
         title='Ebaluntik',
         href='https://www.hentai-foundry.com/feed/userPictures/username/Ebaluntik',
         href_title='http://www.hentai-foundry.com/pictures/user/Ebaluntik',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='aromasensei',
@@ -4751,7 +4757,7 @@ feeds = (
         title='BleedingPervert',
         href='https://www.hentai-foundry.com/feed/userPictures/username/BleedingPervert',
         href_title='http://www.hentai-foundry.com/pictures/user/BleedingPervert',
-        emojis='💎🏮'
+        emojis='🏮'
     ),
     feed(
         title='kinkymation',
@@ -4970,6 +4976,11 @@ feeds = (
     feed(
         title='RevizorMinsk',
         href='https://pikabu.ru/@RevizorMinsk',
+        emojis='💎',
+    ),
+    feed(
+        title='v403605',
+        href='https://pikabu.ru/@v403605',
         emojis='💎',
     ),
     feed(
