@@ -874,6 +874,11 @@ feeds = (
         emojis='🏮💎'
     ),
     feed(
+        title='NAKOLINA',
+        href='https://www.youtube.com/channel/UCOo27GqJbIJH0SJ1vR84P_w',
+        emojis='🏮💎'
+    ),
+    feed(
         title='LFashionTV',
         title_full='Latex Fashion TV',
         href='https://www.youtube.com/channel/UCC3iGfxG5wG17GBe1PffP0Q/videos',
@@ -1133,7 +1138,7 @@ feeds = (
     feed(
         title='BABYMETAL',
         href='https://www.youtube.com/channel/UC33_tIj4m1_XaqfFcomShvw/videos',
-        emojis='💎'
+        emojis='📮'
     ),
     feed(
         title='РенТВ',
@@ -1336,6 +1341,11 @@ feeds = (
     feed(
         title='ВечерниеКости',
         href='https://www.youtube.com/channel/UCETKVT-Uj-gAqdSTd2YNaMg/videos',
+        emojis='💎'
+    ),
+    feed(
+        title='NecroDice',
+        href='https://www.youtube.com/channel/UCIoDVJbbf1JEVz8uBhx5XAg/videos',
         emojis='💎'
     ),
     feed(
@@ -2133,13 +2143,13 @@ feeds = (
         href='https://www.the-village.com.ua/feeds/posts.atom',
         href_title='https://www.the-village.com.ua',
     ),
-    # feed( time parsing issues, has to be resolved later
-    #     title='bespoyasov',
-    #     title_full='bespoyasov',
-    #     href='https://bespoyasov.ru/rss.xml',
-    #     href_title='https://bespoyasov.ru',
-    #     emojis='💎',
-    # ),
+    feed(
+        title='bespoyasov',
+        title_full='bespoyasov',
+        href='https://bespoyasov.ru/rss.xml',
+        href_title='https://bespoyasov.ru',
+        emojis='💎',
+    ),
     feed(
         title='RuBearLatex',
         href='https://rubear.moscow/index.php?route=journal2/blog/feed',
@@ -2439,8 +2449,33 @@ feeds = (
         emojis='💎🏮'
     ),
     feed(
+        title='MikomiHokina',
+        href='https://twitter.com/MikomiHokina',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='fetishdeluxe_twitter',
+        href='https://twitter.com/fetishdeluxe',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='howbizarre2801',
+        href='https://twitter.com/howbizarre2801',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='fehgalvao_',
+        href='https://twitter.com/fehgalvao_',
+        emojis='💎🏮'
+    ),
+    feed(
         title='JannetIncosplay',
         href='https://twitter.com/JannetIncosplay',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='als9786',
+        href='https://twitter.com/als9786',
         emojis='💎🏮'
     ),
     feed(
@@ -2496,7 +2531,7 @@ feeds = (
     feed(
         title='aliceoncam',
         href='https://twitter.com/aliceoncam',
-        emojis='💎',
+        emojis='💎🏮',
         filter='https://twitter.com/aliceoncam',
     ),
     feed(
@@ -2780,6 +2815,18 @@ feeds = (
         emojis='💎'
     ),
     feed(
+        title='christopheyoung',
+        href='https://christopheyoung.artstation.com/rss',
+        href_title='https://christopheyoung.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
+        title='andrewkmar',
+        href='https://andrewkmar.artstation.com/rss',
+        href_title='https://andrewkmar.artstation.com/projects',
+        emojis='💎'
+    ),
+    feed(
         title='pelagea',
         href='https://pelagea.artstation.com/rss',
         href_title='https://pelagea.artstation.com/projects',
@@ -2801,7 +2848,7 @@ feeds = (
         title='malx',
         href='https://malx.artstation.com/rss',
         href_title='https://malx.artstation.com/projects',
-        emojis='💎🏮x'
+        emojis='💎🏮'
     ),
     feed(
         title='liangxing_ArtStation',
@@ -2837,6 +2884,12 @@ feeds = (
         title='ramonn90',
         href='https://ramonn90.artstation.com/rss',
         href_title='https://ramonn90.artstation.com/projects',
+        emojis='💎🏮'
+    ),
+    feed(
+        title='chocolat',
+        href='https://chocolat.artstation.com/rss',
+        href_title='https://chocolat.artstation.com/projects',
         emojis='💎🏮'
     ),
     feed(
@@ -3486,7 +3539,7 @@ feeds = (
         title='inhyuklee85',
         href='https://inhyuklee85.artstation.com/rss',
         href_title='https://inhyuklee85.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='matheusgraef',
@@ -3999,7 +4052,7 @@ feeds = (
         title='ivantao',
         href='https://ivantao.artstation.com/rss',
         href_title='https://ivantao.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='cgsoufiane',
@@ -4011,7 +4064,7 @@ feeds = (
         title='yuanzhang96',
         href='https://yuanzhang96.artstation.com/rss',
         href_title='https://yuanzhang96.artstation.com/projects',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='ee2015_amg',
@@ -4167,7 +4220,7 @@ feeds = (
         title='yeyuan',
         href='https://www.artstation.com/yeyuan.rss',
         href_title='https://www.artstation.com/yeyuan',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='НиколайХватов',
@@ -4247,7 +4300,7 @@ feeds = (
         title='duski',
         href='https://www.hentai-foundry.com/feed/userPictures/username/duski',
         href_title='http://www.hentai-foundry.com/pictures/user/duski',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='FlannaganTheRed',
