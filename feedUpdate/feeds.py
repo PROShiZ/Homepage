@@ -4990,7 +4990,7 @@ feeds = (
         title='NamiWaifu',
         href='https://www.hentai-foundry.com/feed/userPictures/username/NamiWaifu',
         href_title='http://www.hentai-foundry.com/pictures/user/NamiWaifu',
-        emojis='💎🏮'
+        emojis='🏮📮'
     ),
     feed(
         title='zxc338093',
@@ -5034,6 +5034,11 @@ feeds = (
     feed(
         title='v403605',
         href='https://pikabu.ru/@v403605',
+        emojis='💎',
+    ),
+    feed(
+        title='Frog_kvak',
+        href='https://pikabu.ru/@Frog.kvak',
         emojis='💎',
     ),
     feed(
