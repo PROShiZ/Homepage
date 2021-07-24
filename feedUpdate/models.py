@@ -68,8 +68,25 @@ class feed(models.Model):
         with open(join("static", "feedUpdate", 'user-agents.txt')) as useragent_file:
             return useragent_file.read().split('\n')[useragent-1]  # get UserAgent string
 
+    @staticmethod
+    def parse_reduce(emojis='', reduce=False):
+        if not reduce:
+            return True
+        
+        # higher is less requests
+        rarity = 20_000
+        if '💎' in emojis:
+            rarity = rarity / 100
+        elif '📮' in emojis:
+            rarity = rarity / 20
+
+        if not random.randint(0, int(rarity)):
+            return True  # continue parsing
+
+        return False  # break parse(), return []
+
     # return List<feedUpdate> parsed from source by <feed> (self)
-    def parse(self, proxy=False):
+    def parse(self, proxy=False, reduce=False):
         result = []
 
         # avoiding blocks
@@ -101,7 +118,7 @@ class feed(models.Model):
 
         # custom instagram import
         elif 'https://www.instagram.com/' in self.href:
-            if randint(0, 1000) > 0:
+            if not feed.parse_reduce(self.emojis, reduce):
                 return []
             try:
                 request = requests.get(self.href, headers=headers, proxies=proxyDict)
@@ -137,6 +154,9 @@ class feed(models.Model):
 
         # custom tiktok import
         elif 'https://www.tiktok.com/@' in self.href:
+            if not feed.parse_reduce(self.emojis, reduce):
+                return []
+
             request = requests.get(self.href, headers=headers, proxies=proxyDict)
             request = BeautifulSoup(request.text, "html.parser")
 
