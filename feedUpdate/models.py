@@ -91,8 +91,8 @@ class feed(models.Model):
 
         # avoiding blocks
         headers = {
-            'user-agent': feed.UserAgent_random().lstrip(),
-            'referer': 'https://www.google.com/search?newwindow=1&q='+self.href
+            'user-agent': feed.UserAgent_random().strip(),
+            'referer': f'https://www.{ "".join(random.choices(string.ascii_letters, k=16)) }.com/?q={ self.href }'
         }
         if proxy != False:
             proxyDict = {
@@ -101,6 +101,9 @@ class feed(models.Model):
             }
         else:
             proxyDict = {}
+
+        # if not self.emojis:
+        #     self.emojis = ''
 
         # custom ранобэ.рф API import
         if 'http://xn--80ac9aeh6f.xn--p1ai/' in self.href:
