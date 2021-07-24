@@ -374,8 +374,10 @@ class feed(models.Model):
                 return []
 
             try:
-                request = feedparser.parse(self.href, request_headers=headers, handlers=[proxyDict])
+                request = feedparser.parse(self.href, request_headers=headers)
             except urllib.error.URLError:
+                proxyDict = urllib.request.ProxyHandler(proxyDict)
+                
                 ssl._create_default_https_context = ssl._create_unverified_context
                 request = feedparser.parse(self.href, request_headers=headers, handlers=[proxyDict])
 
