@@ -1,18 +1,18 @@
 import json
+import random
 import requests
-import urllib.request, feedparser  # for rss only
 import ssl
+import string
 import urllib
-from datetime import datetime, timedelta
-from dateutil.tz import gettz  # adding custom timezones
-from dateutil import parser
+import feedparser  # for rss only
+from datetime import datetime
+from dateutil  # adding custom timezones
 from os.path import join
+
+from bs4 import BeautifulSoup, SoupStrainer
 
 from django.db import models
 from Dashboard.models import keyValue
-
-from bs4 import BeautifulSoup, SoupStrainer
-# from django.utils.timezone import localtime
 
 
 class feed(models.Model):
@@ -279,9 +279,12 @@ class feed(models.Model):
                 else:
                     print(f"result_datetime broke for { self.title }")
                 
-                tzinfos = {'PDT': gettz("America/Los_Angeles"), 'PST': gettz("America/Juneau")}
+                tzinfos = {
+                    'PDT': dateutil.tz.gettz("America/Los_Angeles"),
+                    'PST': dateutil.tz.gettz("America/Juneau"),
+                }
                 if not isinstance(result_datetime, datetime):
-                    result_datetime = parser.parse(result_datetime, tzinfos=tzinfos)
+                    result_datetime = dateutil.parser.parse(result_datetime, tzinfos=tzinfos)
 
                 # APPEND RESULT
                 result.append(feedUpdate(
