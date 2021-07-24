@@ -119,10 +119,8 @@ class feed(models.Model):
                         datetime=datetime.strptime(each["publishTime"], '%Y-%m-%d %H:%M:%S'),
                         title=self.title))
 
-        # custom instagram import
-        elif 'https://www.instagram.com/' in self.href:
-            if not feed.parse_reduce(self.emojis, reduce):
-                return []
+        # custom instagram import ( OLD, use in really rare cases )
+        elif 'https://www.instagram.com/' in self.href and not feed.parse_reduce('', True):
             try:
                 request = requests.get(self.href, headers=headers, proxies=proxyDict)
                 request = BeautifulSoup(request.text, "html.parser")
