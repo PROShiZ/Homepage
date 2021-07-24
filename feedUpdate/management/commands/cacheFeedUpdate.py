@@ -49,7 +49,7 @@ class Command(BaseCommand):
         new_feed = True if len(new_feed) == 0 else False
 
         # parsing
-        feedUpdate_list = current_feed.parse(proxy)
+        feedUpdate_list = current_feed.parse(proxy=proxy, reduce=True)
         feedUpdate_list = reversed(feedUpdate_list)
 
         for each in feedUpdate_list:
