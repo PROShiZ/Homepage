@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-python3 manage.py cacheUpdate --parseAll
-python3 manage.py emailNotify --fromYesterday
-sudo systemctl restart homepage.server.launch
