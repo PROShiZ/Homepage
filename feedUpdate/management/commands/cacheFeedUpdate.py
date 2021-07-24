@@ -120,15 +120,15 @@ class Command(BaseCommand):
 
             # caching feedUpdates for feeds stored in DB
             if options['parseUpdates']:
-                proxy = False
-                if options["useProxy"]:
-                    proxy = requests.get('http://pubproxy.com/api/proxy?https=true&user_agent=true&referer=true').json()['data'][0]["ipPort"]
-                    
                 # prepare list of feeds to parse
                 parse_feeds = list(feed.objects.all())
 
                 if options['shuffle']:
                     shuffle(parse_feeds)
+
+                proxy = False
+                if options["useProxy"]:
+                    proxy = requests.get('http://pubproxy.com/api/proxy?https=true&user_agent=true&referer=true').json()['data'][0]["ipPort"]
 
                 with ThreadPoolExecutor() as executor:
                     executor = executor.map(Command.process_feed, parse_feeds, [proxy]*len(parse_feeds))
