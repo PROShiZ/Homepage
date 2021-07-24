@@ -253,11 +253,15 @@ class feed(models.Model):
             data = data[data_start:data_end]
             data = json.loads(data)
             
-            for each in data['props']['pageProps']['items']:
-                # if each['isAd']:
-                #     continue
+            for each in data['props']['pageProps'].get("items", []):
+                if each['isAd']:
+                    continue
 
-                result.insert(0, feedUpdate(
+                # avoiding errors caused by empty titles
+                if not each['desc']:
+                    each['desc'] = 'no title'
+
+                result.append(feedUpdate(
                     name=each['desc'],
                     href=f"{ self.href }/video/{ each['id'] }",
                     # href=each['video']['playAddr'],
