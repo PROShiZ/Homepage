@@ -96,7 +96,7 @@ DATABASES = {
         'NAME': 'homepage_django',
         'USER': 'pi',
         'PASSWORD': 'bali4dead',
-        'HOST': '192.168.1.201',
+        'HOST': 'homepage_db',
         'PORT': '5432',
         # logs @ tail /var/log/postgresql/postgresql-x.x-main.log
     }
