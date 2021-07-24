@@ -153,6 +153,87 @@ class feed(models.Model):
             except (KeyError, requests.exceptions.ProxyError, requests.exceptions.SSLError):
                 return []
 
+        # custom instagram import converter
+        elif 'https://www.instagram.com/' in self.href:
+            if not feed.parse_reduce(self.emojis, reduce):
+                return []
+
+            self.href_title = self.href[:]
+            # caching server list: https://git.sr.ht/~cadence/bibliogram-docs/tree/master/docs/Instances.md
+            caching_servers = (
+                'https://bibliogram.snopyta.org',
+                'https://bibliogram.nixnet.services',  # x
+                'https://bg.endl.site',
+                'https://bibliogram.pixelfed.uno',
+                'https://bibliogram.ethibox.fr',
+                'https://bibliogram.hamster.dance',  # x
+            )
+            # 26 = len('https://www.instagram.com/')
+            # 1 = len('/')
+            self.href = f"{ random.choice(caching_servers) }/u/{ self.href[26:-1] }/atom.xml"
+
+            try:
+                result = self.parse(proxy, reduce)
+            except:
+                return []
+
+            base_domain = 'instagram.com'
+            for each in result:
+                # href: replace parser's domain name
+                each.href = each.href.replace('http://', 'https://')
+                href_split = each.href.split('/')
+                href_split[2] = base_domain
+                each.href = '/'.join(href_split) + '/'
+
+                # title: remove hashtags
+                each.title = each.title.replace('#', ' #')
+                title_split = each.title.split(' ')
+                title_split = [ x for x in title_split if x[0]!='#']
+                each.title = ' '.join(title_split)
+
+        # custom twitter import converter
+        elif 'https://twitter.com/' in self.href:
+            if not feed.parse_reduce(self.emojis, reduce):
+                return []
+
+            self.href_title = self.href[:]
+            caching_servers = (
+                'https://nitter.net',
+                'https://nitter.42l.fr',
+                'https://nitter.nixnet.services',
+                'https://nitter.pussthecat.org',
+                'https://nitter.mastodont.cat',
+                'https://nitter.tedomum.net',
+                'https://nitter.fdn.fr',
+                'https://nitter.1d4.us',
+                'https://nitter.kavin.rocks',
+                'https://tweet.lambda.dance',
+                'https://nitter.cc',
+                'https://nitter.weaponizedhumiliation.com',
+                'https://nitter.vxempire.xyz',
+                'https://nitter.unixfox.eu',
+                'https://nitter.himiko.cloud',
+                'https://nitter.eu',
+                'https://nitter.ethibox.fr', 
+                'https://nitter.namazso.eu',
+            )
+            # 20 = len('https://twitter.com/')
+            self.href = f"{ random.choice(caching_servers) }/{ self.href[20:] }/rss"
+
+            try:
+                result = self.parse(proxy, reduce)
+            except:
+                return []
+
+            base_domain = 'twitter.com'
+            for each in result:
+                each.href = each.href.replace('#m', '').replace('http://', 'https://')
+                
+                href_split = each.href.split('/')
+                href_split[2] = base_domain
+
+                each.href = '/'.join(href_split)
+
         # custom tiktok import
         elif 'https://www.tiktok.com/@' in self.href:
             if not feed.parse_reduce(self.emojis, reduce):
