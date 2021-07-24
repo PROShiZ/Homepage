@@ -17,7 +17,7 @@ feeds = (
         title='Скульптор',
         title_full='Легендарный Лунный Скульптор',
         href='http://xn--80ac9aeh6f.xn--p1ai/legendary-moonlight-sculptor/',
-        emojis='💎📧'
+        emojis='💎'
     ), feed(
         title='Реинкарнатор',
         href='http://xn--80ac9aeh6f.xn--p1ai/reincarnator/',
@@ -40,13 +40,13 @@ feeds = (
         title_full='Renegade Immortal',
         href='https://www.wuxiaworld.com/feed/chapters/renegade-immortal',
         href_title='https://www.wuxiaworld.com/novel/renegade-immortal',
-        emojis='💎📧'
+        emojis='💎'
     ), feed(
         title='EvilGod',
         title_full='Heaven Defying Evil God',
         href='https://www.wuxiaworld.com/feed/chapters/against-the-gods',
         href_title='https://www.wuxiaworld.com/novel/against-the-gods',
-        emojis='💎📧'
+        emojis='💎'
     ), feed(
         title='TruthPursuit',
         title_full='Pursuit of the Truth (остановился на 106',
@@ -63,7 +63,7 @@ feeds = (
         title_full='The Gamer',
         href='feed://www.webtoons.com/en/fantasy/the-gamer/rss?title_no=88',
         href_title='https://www.webtoons.com/en/fantasy/the-gamer/list?title_no=88&page=1',
-        emojis='💎📧'
+        emojis='💎'
     ), feed(
         title='PixieAndBrutus',
         href='feed:https://www.webtoons.com/en/challenge/pixie-and-brutus/rss?title_no=452175',
