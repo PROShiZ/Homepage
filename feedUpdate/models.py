@@ -1,4 +1,5 @@
 import json
+import dateutil  # adding custom timezones
 import random
 import requests
 import ssl
@@ -6,7 +7,6 @@ import string
 import urllib
 import feedparser  # for rss only
 from datetime import datetime
-from dateutil  # adding custom timezones
 from os.path import join
 
 from bs4 import BeautifulSoup, SoupStrainer
