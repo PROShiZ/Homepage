@@ -5,12 +5,6 @@ from .models import feed
 # TODO: remove parser personal Strava to RSS -  http://feedmyride.net
 # TODO: remove parser Twitter to RSS -          https://twitrss.me/twitter_user_to_rss/?user=
 
-# emojis 💎🗃️🏮📮🏋️
-# 💎 - inIndex=True
-# 🗃️ - inIndex=False (used at front-end only)
-# 🏮 - hide from feeds
-# 📮 - I have nothing to do, 💎 with lower priority
-# 🏋️ - sport tag which means nothing
 
 feeds = (
     feed(
@@ -433,7 +427,7 @@ feeds = (
         title="MLewin",
         title_full="Michelle Lewin",
         href="https://www.youtube.com/channel/UCXOF8RQ_v52K1uq6m_rMy1w/videos",
-        emojis='💎🏮🏋️',
+        emojis='💎🏮',
     ), feed(
         title="AdventureTeam",
         href="https://www.youtube.com/channel/UCnusq0cEepVKVAlftFn8u5Q/videos",
@@ -1089,7 +1083,6 @@ feeds = (
     ), feed(
         title='AbbyPollock',
         href='https://www.youtube.com/channel/UCSaYCyda-i7enHvQ8Wns8_w/videos',
-        emojis='🏋️'
     ), feed(
         title='Avantazh',
         href='https://www.youtube.com/channel/UCvBZg6UrQQL8Pu8r35nu1BQ/videos',
@@ -1176,11 +1169,11 @@ feeds = (
     ), feed(
         title='SandraBeeston',
         href='https://www.youtube.com/channel/UC-ykdLtiE8g6xul4pNAJbyA/videos',
-        emojis='💎🏮🏋️'
+        emojis='💎🏮'
     ), feed(
         title='LaraJoh',
         href='https://www.youtube.com/channel/UCkfYhMT-QNoyhCzR3JlB0Ug/videos',
-        emojis='🏮🏋️'
+        emojis='🏮'
     ), feed(
         title='Socratica',
         href='https://www.youtube.com/channel/UCW6TXMZ5Pq6yL6_k5NZ2e0Q/videos',
@@ -4904,7 +4897,7 @@ feeds = (
     ), feed(
         title='bendygio',
         href='https://www.instagram.com/bendygio/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='pyroowdaily',
         href='https://www.instagram.com/pyroowdaily/',
@@ -5076,7 +5069,7 @@ feeds = (
     ), feed(
         title='idajemina',
         href='https://www.instagram.com/idajemina/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='sjamesfit',
         href='https://www.instagram.com/sjamesfit/',
@@ -5284,7 +5277,7 @@ feeds = (
     ), feed(
         title='emmajane_dillon',
         href='https://www.instagram.com/emmajane.dillon/',
-        emojis='🏮🏋️',
+        emojis='🏮',
     ), feed(
         title='valerietramellofficial',
         href='https://www.instagram.com/valerietramellofficial/',
@@ -6089,7 +6082,7 @@ feeds = (
     ), feed(
         title='ashleigh_jordan',
         href='https://www.instagram.com/ashleigh_jordan/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='samdoesarts',
         href='https://www.instagram.com/samdoesarts/',
@@ -6446,7 +6439,7 @@ feeds = (
     ), feed(
         title='zhukouskaya_nastassia',
         href='https://www.instagram.com/zhukouskaya.nastassia/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='whatsupbeanie',
         href='https://www.instagram.com/whatsupbeanie/',
@@ -7555,7 +7548,7 @@ feeds = (
     ), feed(
         title='mssannamaria',
         href='https://www.instagram.com/mssannamaria/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='frokenhedstrom',
         href='https://www.instagram.com/frokenhedstrom/',
@@ -7896,11 +7889,11 @@ feeds = (
     ), feed(
         title='topstretching',
         href='https://www.instagram.com/topstretching/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='topstretching_me',
         href='https://www.instagram.com/topstretching.me/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='anna_kanyuk',
         href='https://www.instagram.com/anna_kanyuk/',
@@ -8052,7 +8045,7 @@ feeds = (
     ), feed(
         title='ikonicfitness',
         href='https://www.instagram.com/ikonicfitness/',
-        emojis='🏮🏋️',
+        emojis='🏮',
     ), feed(
         title='di_make',
         href='https://www.instagram.com/di_make/',
@@ -8072,7 +8065,7 @@ feeds = (
     ), feed(
         title='bethclarefitness',
         href='https://www.instagram.com/bethclarefitness/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='lindalatexdoll',
         href='https://www.instagram.com/lindalatexdoll/',
@@ -8100,7 +8093,7 @@ feeds = (
     ), feed(
         title='krissycela',
         href='https://www.instagram.com/krissycela/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='kris_rodriguezzz',
         href='https://www.instagram.com/kris_rodriguezzz/',
@@ -8180,7 +8173,7 @@ feeds = (
     ), feed(
         title='victoriadariano',
         href='https://www.instagram.com/victoriadariano/',
-        emojis='💎🏮🏋️',
+        emojis='💎🏮',
     ), feed(
         title='nata_007_lee',
         href='https://www.instagram.com/nata.007.lee/',
@@ -8548,11 +8541,11 @@ feeds = (
     ), feed(
         title='kaya_blum',
         href='https://www.instagram.com/kaya.blum/',
-        emojis='💎🏮🏋️',
+        emojis='💎🏮',
     ), feed(
         title='kayablumstudio',
         href='https://www.instagram.com/kayablumstudio/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='kayablumshop',
         href='https://www.instagram.com/kayablumshop/',
@@ -9770,7 +9763,7 @@ feeds = (
     ), feed(
         title='sveta_raketa',
         href='https://www.instagram.com/sveta.raketa/',
-        emojis='🏮📮🏋️',
+        emojis='🏮📮',
     ), feed(
         title='milliebobbybrown',
         href='https://www.instagram.com/milliebobbybrown/',

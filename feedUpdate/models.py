@@ -23,7 +23,10 @@ class feed(models.Model):
     title_full = models.CharField(max_length=140, null=True)
     href = models.CharField(max_length=420)
     href_title = models.CharField(max_length=420, null=True)
-    emojis = models.CharField(max_length=7, null=True)  # usage as tags
+    emojis = models.CharField(max_length=14, null=True)  # using emojis as tags: 💎🏮📮
+    # 💎 - parse each time and show in main feed
+    # 🏮 - hidden from main feed
+    # 📮 - parse less and show in main feed
     filter = models.CharField(max_length=140, null=True)
     delay = models.IntegerField(null=True)
 
