@@ -10,5 +10,5 @@ urlpatterns = [
     url(r'^tests$', views.feedTestsView.as_view(), name="tests"),  # testing page
 
     url(r'^(?P<feed>(index|other|all)):(?P<mode>(index|force|more))$', views.feedUpdateIndexView.as_view(), name="feed"),
-    url(r'^(?P<feed>([0-9|а-я|ё|А-Я|Ё|a-z|A-Z|_|+|—])*):(?P<mode>(index|more|force))?$', views.feedUpdateIndexView.as_view(), name="filter"),   
+    url(r'^(?P<feed>([0-9|а-я|ё|А-Я|Ё|a-z|A-Z|_|+|—])*):(?P<mode>(index|more|force))?$', views.feedUpdateIndexView.as_view(), name="filter"),
 ]
