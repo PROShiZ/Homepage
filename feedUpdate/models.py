@@ -370,7 +370,8 @@ class feed(models.Model):
 
         # default RSS import
         else:
-            proxyDict = urllib.request.ProxyHandler(proxyDict)
+            if not feed.parse_reduce(self.emojis, reduce):
+                return []
 
             try:
                 request = feedparser.parse(self.href, request_headers=headers, handlers=[proxyDict])
