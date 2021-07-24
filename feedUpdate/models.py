@@ -450,6 +450,9 @@ class feed(models.Model):
 class feedUpdate(models.Model):
     class Meta:
         ordering = ['-datetime']
+        indexes = [
+            models.Index(fields=['title',]),
+        ]
     name = models.CharField(max_length=140)
     href = models.CharField(max_length=420)
     datetime = models.DateTimeField()
