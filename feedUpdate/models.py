@@ -6,7 +6,6 @@ import urllib
 from datetime import datetime, timedelta
 from dateutil.tz import gettz  # adding custom timezones
 from dateutil import parser
-from random import randint
 from os.path import join
 
 from django.db import models
@@ -64,7 +63,7 @@ class feed(models.Model):
 
     def UserAgent_random():
         useragent = keyValue.objects.filter(key='UserAgentLen')[0]  # get UserAgent length
-        useragent = randint(1, int(useragent.value))  # generate random value within length
+        useragent = random.randint(1, int(useragent.value))  # generate random value within length
 
         with open(join("static", "feedUpdate", 'user-agents.txt')) as useragent_file:
             return useragent_file.read().split('\n')[useragent-1]  # get UserAgent string
