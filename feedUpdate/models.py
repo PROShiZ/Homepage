@@ -294,7 +294,7 @@ class feed(models.Model):
             # 27 = len('https://www.deviantart.com/')
             # 9 = len('/gallery/')
             self.href = self.href[27:-9]
-            self.href = "http://backend.deviantart.com/rss.xml?q=gallery%3A" + self.href
+            self.href = f"https://backend.deviantart.com/rss.xml?type=deviation&q=by%3A{ self.href }+sort%3Atime+meta%3Aall"
             result = feed.parse(self)
 
         # custom fantasy-worlds.org loader
