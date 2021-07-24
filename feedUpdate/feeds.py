@@ -85,19 +85,7 @@ feeds = (
         href='feed:https://www.webtoons.com/en/challenge/punderworld/rss?title_no=312584',
         href_title='https://www.webtoons.com/en/challenge/punderworld/list?title_no=312584',
         emojis='💎'
-    ),
-    # feed(
-    #     title='Симпсоны',
-    #     href='http://fanserial.net/simpsons/',
-    #     emojis='💎',
-    #     filter='#original'
-    # ),
-    # feed(
-    #     title='ДокторСтоун',
-    #     href='http://fanserial.net/dr-stone/',
-    #     emojis='💎',
-    #     filter='#anidub'
-    # ), feed(
+    ), feed(
         title='Ляпота',
         title_full="It's a good trip",
         href='https://www.youtube.com/channel/UCeHB0mXXj_kyPCB-yRr8b9w/videos',
@@ -1548,10 +1536,6 @@ feeds = (
         title='НепобедимыйГений',
         title_full='Непобедимый Гений (остановился на 1-61)',
         href='http://readmanga.live/ia_nepobedimyi_genii',
-    ), feed(  # окончено автором, продолжения не планируется (кроме книги?)
-        title='БессмертныйТорговец',
-        title_full='Бессмертный торговец',
-        href='http://readmanga.live/immortal_merchant',
     ), feed(
         title='ВеликийМеч',
         title_full='Мой великий меч (остановился на 1-17)',
