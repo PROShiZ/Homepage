@@ -45,8 +45,8 @@ class Command(BaseCommand):
         cycle_items_total = 0
 
         # checking if feed is new: new feeds use real datetime
-        new_feed = feedUpdate.objects.filter(title=current_feed.title)
-        new_feed = True if len(new_feed) == 0 else False
+        existing_feed = feedUpdate.objects.filter(title=current_feed.title)
+        existing_feed = len(existing_feed) > 0
 
         # parsing
         feedUpdate_list = current_feed.parse(proxy=proxy, reduce=True)
@@ -58,7 +58,7 @@ class Command(BaseCommand):
             
             cycle_items_total += 1
             if not cached:
-                if not new_feed:
+                if existing_feed:
                     each.datetime = datetime.now()
                 
                 each.save()
