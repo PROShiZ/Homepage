@@ -242,7 +242,11 @@ class feed(models.Model):
             request = requests.get(self.href, headers=headers, proxies=proxyDict)
             request = BeautifulSoup(request.text, "html.parser")
 
-            data = str(request.find('script', attrs={'id': '__NEXT_DATA__'}))
+            data = request.find('script', attrs={'id': '__NEXT_DATA__'})
+            if data is None:
+                return []
+
+            data = str(data)
             data_start = data.find('>') + 1
             data_end = data.find('</script>')
 
